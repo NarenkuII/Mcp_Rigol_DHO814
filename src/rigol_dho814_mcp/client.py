@@ -7,6 +7,7 @@ import os
 import re
 import socket
 import time
+from io import BytesIO
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Any
@@ -178,6 +179,108 @@ class RigolDHO814:
         if include_base64:
             result["base64"] = base64.b64encode(payload).decode("ascii")
         return result
+
+    def capture_burst(
+        self,
+        count: int = 10,
+        interval_s: float = 0.2,
+        name: str | None = None,
+        include_base64_latest: bool = False,
+    ) -> dict[str, Any]:
+        count = max(1, min(int(count), 200))
+        interval_s = max(0.0, float(interval_s))
+        stamp = time.strftime("%Y%m%d-%H%M%S")
+        stem = _clean_name(name or f"burst-{stamp}")
+        directory = self.config.storage_dir / "screenshots" / stem
+        directory.mkdir(parents=True, exist_ok=True)
+        frames = []
+        start = time.monotonic()
+        latest_payload = b""
+        for idx in range(count):
+            if idx:
+                elapsed_target = start + idx * interval_s
+                delay = elapsed_target - time.monotonic()
+                if delay > 0:
+                    time.sleep(delay)
+            payload = self.binary_query(":DISPlay:DATA? PNG", max_bytes=30_000_000)
+            latest_payload = payload
+            path = directory / f"frame-{idx + 1:04d}.png"
+            path.write_bytes(payload)
+            frames.append({"index": idx + 1, "path": str(path.resolve()), "bytes": len(payload)})
+        latest = self.config.storage_dir / "screenshots" / "latest.png"
+        if latest_payload:
+            latest.write_bytes(latest_payload)
+        result: dict[str, Any] = {
+            "directory": str(directory.resolve()),
+            "frames": frames,
+            "count": len(frames),
+            "interval_s": interval_s,
+            "duration_s": time.monotonic() - start,
+            "latest": str(latest.resolve()),
+        }
+        if include_base64_latest and latest_payload:
+            result["latest_base64"] = base64.b64encode(latest_payload).decode("ascii")
+        return result
+
+    def record_screen_gif(
+        self,
+        duration_s: float = 3.0,
+        fps: float = 5.0,
+        name: str | None = None,
+        keep_frames: bool = True,
+    ) -> dict[str, Any]:
+        from PIL import Image
+
+        duration_s = max(0.2, min(float(duration_s), 60.0))
+        fps = max(0.2, min(float(fps), 20.0))
+        count = max(1, int(round(duration_s * fps)))
+        interval_s = 1.0 / fps
+        stamp = time.strftime("%Y%m%d-%H%M%S")
+        stem = _clean_name(name or f"record-{stamp}")
+        directory = self.config.storage_dir / "recordings" / stem
+        directory.mkdir(parents=True, exist_ok=True)
+        gif_path = directory / f"{stem}.gif"
+        frames_info = []
+        images = []
+        start = time.monotonic()
+        latest_payload = b""
+        for idx in range(count):
+            if idx:
+                target = start + idx * interval_s
+                delay = target - time.monotonic()
+                if delay > 0:
+                    time.sleep(delay)
+            payload = self.binary_query(":DISPlay:DATA? PNG", max_bytes=30_000_000)
+            latest_payload = payload
+            image = Image.open(BytesIO(payload)).convert("P", palette=Image.ADAPTIVE)
+            images.append(image)
+            if keep_frames:
+                frame_path = directory / f"frame-{idx + 1:04d}.png"
+                frame_path.write_bytes(payload)
+                frames_info.append({"index": idx + 1, "path": str(frame_path.resolve()), "bytes": len(payload)})
+        if not images:
+            raise RuntimeError("No frames captured")
+        images[0].save(
+            gif_path,
+            save_all=True,
+            append_images=images[1:],
+            duration=max(20, int(1000 / fps)),
+            loop=0,
+            optimize=False,
+        )
+        latest = self.config.storage_dir / "screenshots" / "latest.png"
+        latest.parent.mkdir(exist_ok=True)
+        if latest_payload:
+            latest.write_bytes(latest_payload)
+        return {
+            "gif_path": str(gif_path.resolve()),
+            "directory": str(directory.resolve()),
+            "frames": frames_info,
+            "frame_count": len(images),
+            "fps": fps,
+            "duration_s": time.monotonic() - start,
+            "latest": str(latest.resolve()),
+        }
 
     def state_snapshot(self) -> dict[str, Any]:
         queries = {
@@ -358,6 +461,86 @@ class RigolDHO814:
 
         asyncio.run(_send())
         return {"ok": True, "event_type": event_type, "x": x, "y": y}
+
+    def configure_waveform_recording(
+        self,
+        enable: bool | None = True,
+        frames: int | None = None,
+        interval_s: float | None = None,
+        prompt: bool | None = None,
+    ) -> dict[str, Any]:
+        commands: list[str] = []
+        if enable is not None:
+            commands.append(f":RECord:WRECord:ENABle {_bool(enable)}")
+        if frames is not None:
+            commands.append(f":RECord:WRECord:FRAMes {max(1, int(frames))}")
+        if interval_s is not None:
+            commands.append(f":RECord:WRECord:FINTerval {float(interval_s)}")
+        if prompt is not None:
+            commands.append(f":RECord:WRECord:PROMpt {_bool(prompt)}")
+        for cmd in commands:
+            self.write(cmd)
+        return {"ok": True, "commands": commands, "status": self.waveform_recording_status()}
+
+    def waveform_recording_control(self, operate: str) -> dict[str, Any]:
+        op = operate.strip().upper()
+        aliases = {"START": "RUN", "ON": "RUN", "RUN": "RUN", "STOP": "STOP", "OFF": "STOP"}
+        if op not in aliases:
+            raise ValueError("operate must be RUN/START/ON or STOP/OFF")
+        command = f":RECord:WRECord:OPERate {aliases[op]}"
+        self.write(command)
+        return {"ok": True, "command": command, "status": self.waveform_recording_status()}
+
+    def waveform_recording_status(self) -> dict[str, Any]:
+        queries = {
+            "enabled": ":RECord:WRECord:ENABle?",
+            "operate": ":RECord:WRECord:OPERate?",
+            "frames": ":RECord:WRECord:FRAMes?",
+            "max_frames": ":RECord:WRECord:FMAX?",
+            "frame_interval_s": ":RECord:WRECord:FINTerval?",
+            "current_frame": ":RECord:WREPlay:FCURrent?",
+            "play_mode": ":RECord:WREPlay:MODE?",
+        }
+        result: dict[str, Any] = {}
+        for key, command in queries.items():
+            try:
+                result[key] = self.query(command)
+            except Exception as exc:
+                result[key] = {"error": str(exc), "command": command}
+        return result
+
+    def save_to_scope_storage(
+        self,
+        kind: str,
+        path: str,
+        overwrite: bool = True,
+        image_format: str | None = None,
+    ) -> dict[str, Any]:
+        kind_key = kind.strip().lower().replace("-", "_")
+        allowed = {
+            "image": ":SAVE:IMAGe",
+            "setup": ":SAVE:SETup",
+            "screen_waveform": ":SAVE:WAVeform",
+            "memory_waveform": ":SAVE:MEMory:WAVeform",
+        }
+        if kind_key not in allowed:
+            raise ValueError(f"kind must be one of {', '.join(allowed)}")
+        commands = [f":SAVE:OVERlap {_bool(overwrite)}"]
+        if kind_key == "image" and image_format:
+            commands.append(f":SAVE:IMAGe:FORMat {image_format.upper()}")
+        commands.append(f"{allowed[kind_key]} {path}")
+        for cmd in commands:
+            self.write(cmd)
+        status = None
+        for _ in range(20):
+            try:
+                status = self.query(":SAVE:STATus?")
+                if status == "1":
+                    break
+            except Exception:
+                pass
+            time.sleep(0.2)
+        return {"ok": True, "kind": kind_key, "scope_path": path, "commands": commands, "save_status": status}
 
     def _check_channel(self, channel: int) -> None:
         if channel not in {1, 2, 3, 4}:

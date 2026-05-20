@@ -39,9 +39,24 @@ High-level helpers:
 - `measure`
 - `measure_many`
 - `capture_screenshot`
+- `capture_screenshot_burst`
+- `record_screen_gif`
 - `save_waveform`
 - `web_touch`
 - `search_scope_docs`
+- `configure_waveform_recording`
+- `waveform_recording_control`
+- `waveform_recording_status`
+- `save_to_scope_storage`
+
+Recording/storage helpers:
+
+- `capture_screenshot_burst`: captures a timed burst of PNG frames into local MCP storage.
+- `record_screen_gif`: captures repeated screenshots and assembles an animated GIF for AI/user review.
+- `configure_waveform_recording`: wraps the scope internal `:RECord:WRECord:*` waveform recorder.
+- `waveform_recording_control`: starts/stops the internal waveform recorder.
+- `waveform_recording_status`: reads recorder/playback state, frame count, max frames, and interval.
+- `save_to_scope_storage`: uses `:SAVE:*` to save image/setup/waveform files to the oscilloscope storage. The local disk is `C:/`; USB/external media is usually `D:/`, `E:/`, etc.
 
 Resources:
 
@@ -84,4 +99,3 @@ enabled = true
 ## Safety
 
 `scpi_write` can change any exposed instrument setting. Use `search_scope_docs` or `search_scpi_commands` before unfamiliar commands, and prefer the high-level helpers for common setup changes.
-

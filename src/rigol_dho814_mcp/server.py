@@ -162,6 +162,38 @@ def capture_screenshot(name: str | None = None, include_base64: bool = False) ->
 
 
 @mcp.tool()
+def capture_screenshot_burst(
+    count: int = 10,
+    interval_s: float = 0.2,
+    name: str | None = None,
+    include_base64_latest: bool = False,
+) -> dict[str, Any]:
+    """Capture a timed burst of screenshots as individual PNG frames."""
+    return scope().capture_burst(
+        count=count,
+        interval_s=interval_s,
+        name=name,
+        include_base64_latest=include_base64_latest,
+    )
+
+
+@mcp.tool()
+def record_screen_gif(
+    duration_s: float = 3.0,
+    fps: float = 5.0,
+    name: str | None = None,
+    keep_frames: bool = True,
+) -> dict[str, Any]:
+    """Record the oscilloscope display by repeated SCPI screenshots and save an animated GIF."""
+    return scope().record_screen_gif(
+        duration_s=duration_s,
+        fps=fps,
+        name=name,
+        keep_frames=keep_frames,
+    )
+
+
+@mcp.tool()
 def save_waveform(source: str = "CHAN1", points: str = "MAX", fmt: str = "BYTE", name: str | None = None) -> dict[str, Any]:
     """Download waveform data, save raw binary plus converted CSV and metadata."""
     return scope().save_waveform(source=source, points=points, fmt=fmt, name=name)
@@ -171,6 +203,50 @@ def save_waveform(source: str = "CHAN1", points: str = "MAX", fmt: str = "BYTE",
 def web_touch(event_type: str, x: float, y: float) -> dict[str, Any]:
     """Send a web-control touch/mouse event to the screen at native 1024x600 coordinates."""
     return scope().touch(event_type=event_type, x=x, y=y)
+
+
+@mcp.tool()
+def configure_waveform_recording(
+    enable: bool | None = True,
+    frames: int | None = None,
+    interval_s: float | None = None,
+    prompt: bool | None = None,
+) -> dict[str, Any]:
+    """Configure the oscilloscope internal waveform recorder (:RECord:WRECord:*)."""
+    return scope().configure_waveform_recording(
+        enable=enable,
+        frames=frames,
+        interval_s=interval_s,
+        prompt=prompt,
+    )
+
+
+@mcp.tool()
+def waveform_recording_control(operate: str) -> dict[str, Any]:
+    """Start or stop the oscilloscope internal waveform recorder. operate=RUN/START or STOP."""
+    return scope().waveform_recording_control(operate=operate)
+
+
+@mcp.tool()
+def waveform_recording_status() -> dict[str, Any]:
+    """Read internal waveform recording/playback status and frame settings."""
+    return scope().waveform_recording_status()
+
+
+@mcp.tool()
+def save_to_scope_storage(
+    kind: str,
+    path: str,
+    overwrite: bool = True,
+    image_format: str | None = None,
+) -> dict[str, Any]:
+    """Save image/setup/waveform to the oscilloscope storage, e.g. C:/cap.png or D:/wave.csv."""
+    return scope().save_to_scope_storage(
+        kind=kind,
+        path=path,
+        overwrite=overwrite,
+        image_format=image_format,
+    )
 
 
 @mcp.tool()
@@ -230,4 +306,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-
