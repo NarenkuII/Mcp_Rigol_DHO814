@@ -1,0 +1,1135 @@
+Product Features
+Product Features
+
+• Ultra-low noise floor, purer signal, never miss the small signals
+• Up to 12 bits resolution for all the models of this series
+• Max. analog bandwidth of 100 MHz, 4 analog channels, external trigger output (std.) available
+  for the dual-channel model
+• Max. real-time sample rate of 1.25 GSa/s
+• Max. memory depth of 25 Mpts
+• Vertical sensitivity range: 500 μV/div to 10 V/div
+• Max. capture rate of 1,000,000 wfms/s (in UltraAcquire mode)
+• Digital phosphor display with real-time 256-level intensity grading
+• Waveform search and navigation function allows you to debug the signal anomalies faster
+• 7" (1024x600) capacitive multi-touch screen
+• Brand new Flex Knob brings user-friendly experience
+• USB Device & Host, LAN, and HDMI interfaces (std.) for all the models of this series
+• Novel and delicate industrial design, easy to operate
+• Unique online upgrade
+
+
+The DHO800 series is RIGOL's new launched high-performance economical digital oscilloscope.
+Though compact in design, it has superior performance. It features a capture rate up to 1,000,000
+wfms/s (in UltraAcquire Mode), 25 Mpts memory depth, 12 bit resolution, and low noise.
+
+The DHO800 series is a brand new economical digital oscilloscope designed for the vast
+mainstream digital oscilloscope market to meet their design, debugging, and test demands.
+
+
+
+
+ Page 1
+RIGOL Probes and Accessories
+Supported
+Model                 Type                 Description
+
+Passive High-impedance Probe
+
+                                           • Attenuation Ratio: 10:1/1:1
+                                           • 1X BW: DC to 35 MHz
+                      Passive High-
+                      impedance Probe      • 10X BW: DC to 150 MHz
+                                           • Compatibility: All models of RIGOL's digital
+        PVP2150                              oscilloscopes
+
+
+                                           • Attenuation Ratio: 10:1/1:1
+                                           • 1X BW: DC to 35 MHz
+                      Passive High-
+                      impedance Probe      • 10X BW: DC to 350 MHz
+                                           • Compatibility: All models of RIGOL's digital
+        PVP2350                              oscilloscopes
+
+
+                                           • Attenuation Ratio: 10:1/1:1
+                                           • 1X BW: DC to 20 MHz
+                      Passive High-
+                      impedance Probe      • 10X BW: DC to 150 MHz
+                                           • Compatibility: All models of RIGOL's digital
+        PVP3150                              oscilloscopes
+
+High-voltage Single-ended Probe
+
+                                           • Attenuation Ratio: 1000:1
+                                           • BW: DC to 40 MHz
+                                           • DC: 0 to 10 kV DC
+                      High-voltage Probe   • AC: pulse ≤20 kVp-p
+                                           • AC: sine ≤7 kVrms
+        RP1010H
+                                           • Compatibility: All models of RIGOL's digital
+                                             oscilloscopes
+
+                                           • Attenuation Ratio: 1000:1
+                                           • BW: DC to 150 MHz
+                                           • DC+ACpeak: 18 kV CAT II
+                      High-voltage Probe
+                                           • ACrms: 12 kV CAT II
+        RP1018H                            • Compatibility: All models of RIGOL's digital
+                                             oscilloscopes
+
+
+
+
+                                                                                    Page 2
+Model                  Type                 Description
+
+                                            • Attenuation Ratio: 100:1
+                                            • BW: DC to 300 MHz
+                                            • CAT I 2000 V (DC+AC)
+                       High-voltage Probe
+                                            • CAT II 1500 V (DC+AC)
+                                            • Compatibility: All models of RIGOL's digital
+        RP1300H                               oscilloscopes
+
+
+High-voltage Differential Probe
+
+
+                                            • BW: DC to 70 MHz
+                       High-voltage         • Max. voltage ≤ 1500 Vpp
+                       Differential Probe   • Compatibility: All models of RIGOL's digital
+                                              oscilloscopes
+        PHA0150
+
+
+                                            • BW: DC to 100 MHz
+                       High-voltage         • Max. voltage ≤ 1500 Vpp
+                       Differential Probe   • Compatibility: All models of RIGOL's digital
+                                              oscilloscopes
+        PHA1150
+
+                                            • 50X BW: DC to 160 MHz
+                                            • 500X BW: DC to 200 MHz
+                       High-voltage
+                       Differential Probe   • Max. voltage ≤ 1500 Vpp
+                                            • Compatibility: All models of RIGOL's digital
+        PHA2150                               oscilloscopes
+
+
+                                            • BW: DC to 25 MHz
+                       High-voltage         • Max. voltage ≤ 1400 Vpp (DC + AC P-P)
+                       Differential Probe   • Compatibility: All models of RIGOL's digital
+                                              oscilloscopes
+        RP1025D
+
+
+                                            • BW: DC to 50 MHz
+                       High-voltage         • Max. voltage ≤ 7000 Vpp (DC + AC P-P)
+                       Differential Probe   • Compatibility: All models of RIGOL's digital
+                                              oscilloscopes
+        RP1050D
+
+
+                                            • BW: DC to 100 MHz
+                       High-voltage         • Max. voltage ≤ 7000 Vpp (DC + AC P-P)
+                       Differential Probe   • Compatibility: All models of RIGOL's digital
+                                              oscilloscopes
+        RP1100D
+
+
+
+
+ Page 3
+Model             Type            Description
+
+Current Probe
+
+                                  • BW: DC to 300 kHz
+                                  • Maximum Input
+
+                                    AC: ±100 A
+                  Current Probe     AC P-P: 200 A
+
+                                    AC RMS: 70 A
+        RP1001C                   • Compatibility: All models of RIGOL's digital
+                                    oscilloscopes
+
+                                  • BW: DC to 1 MHz
+                                  • Maximum Input
+
+                                    AC: ±70 A
+                  Current Probe     AC P-P: 140 A
+
+                                    AC RMS: 50 A
+        RP1002C                   • Compatibility: All models of RIGOL's digital
+                                    oscilloscopes
+
+                                  • BW: DC to 50 MHz
+                                  • Maximum Input
+
+                                    AC P-P: 50 A (non-continuous)
+                  Current Probe
+                                    AC RMS: 30 A
+                                  • Compatibility: All models of RIGOL's digital
+        RP1003C
+                                    oscilloscopes
+                                  • Required to order RP1000P power supply.
+
+                                  • BW: DC to 100 MHz
+                                  • Maximum Input
+
+                                    AC P-P: 50 A (non-continuous)
+                  Current Probe
+                                    AC RMS: 30 A
+                                  • Compatibility: All models of RIGOL's digital
+        RP1004C
+                                    oscilloscopes
+                                  • Required to order RP1000P power supply.
+
+                                  • BW: DC to 10 MHz
+                                  • Maximum Input
+
+                                    AC P-P: 300 A (non-continuous), 500 A
+                                    (@pulse width ≤ 30 us)
+                  Current Probe
+                                    AC RMS: 150 A
+                                  • Compatibility: All models of RIGOL's digital
+        RP1005C
+                                    oscilloscopes
+                                  • Required to order RP1000P power supply.
+
+
+                                                                           Page 4
+Model             Type               Description
+
+                                     • BW: DC to 2 MHz
+                                     • Maximum Input
+
+                                       AC P-P: 700 A peaks, non-continuous
+                  Current Probe
+                                       AC RMS: 500 A
+                                     • Compatibility: All models of RIGOL's digital
+        RP1006C                        oscilloscopes
+                                     • Required to order RP1000P power supply.
+
+
+
+
+                                     Power supply for RP1003C, RP1004C, RP1005C,
+                  4CH Power Supply   and RP1006C; supporting 4 channels.
+
+
+
+        RP1000P
+
+
+
+
+ Page 5
+Specifications
+All the specifications are guaranteed except the parameters marked with "Typical" and the
+oscilloscope needs to operate for more than 30 minutes under the specified operation temperature.
+The specifications are measured when the oscilloscope is properly grounded.
+
+
+
+Overview of the DHO800 Series Technical Specifications
+Overview of the DHO800 Series Technical Specifications
+
+Model                       DHO802                DHO804             DHO812                DHO814
+
+Analog Bandwidth
+                                       70 MHz                                    100 MHz
+(-3 dB)
+
+Rise Time
+                                        ≤5 ns                                    ≤3.5 ns
+(10% to 90%, typical)
+
+No. of Analog
+                             2 + EXT                4                2 + EXT                 4
+Channels
+
+Sampling Mode           Real-time Sampling
+
+                        Two-channel model:
+
+Max. Sample Rate of     1.25 GSa/s (single-channel[1]), 625 MSa/s (full-channel[3])
+Analog Channel          four-channel model:
+                        1.25 GSa/s (single-channel[1]), 625 MSa/s (dual-channel[2]), 312.5 MSa/s
+                        (full-channel[3])
+
+                        Two-channel model:
+                        25 Mpts (single-channel[1]), 10 Mpts (full-channel[3])
+Max. Memory Depth
+                        four-channel model:
+                        25 Mpts (single-channel[1]), 10 Mpts (dual-channel[2]), 5 Mpts (full-
+                        channel[3])
+
+Max. Waveform           30,000 wfms/s (Vector Mode)
+Capture Rate            1,000,000 wfms/s (UltraAcquire Mode)
+
+Vertical Resolution     12 bits
+
+Hardware Real-time
+Waveform Recording      Max. 500,000 frames
+and Playing
+
+Peak Detection          Capture 1.6 ns glitches
+
+LCD Size and Type       7'' capacitive multi-touch screen
+
+
+
+                                                                                                 Page 6
+Overview of the DHO800 Series Technical Specifications
+
+Display Resolution     1024x600
+
+
+
+Vertical System Analog Channel
+Vertical System Analog Channel
+
+Input Coupling                    DC, AC, or GND
+
+Input Impedance                   1 MΩ ± 1%
+
+Input Capacitance                 15 pF ± 3 pF
+
+                                  0.001X, 0.002X, 0.005X, 0.01X, 0.02X, 0.05X, 0.1X, 0.2X, 0.5X,
+Probe Attenuation                 1X, 2X, 5X, 10X, 15X, 20X, 50X, 100X, 150X, 200X, 500X,
+Coefficient                       1000X, 1500X, 2000X, 5000X, 10000X, 15000X, 20000X, and
+                                  50000X
+
+                                  CAT I 300 Vrms, 400 Vpk (DC + Vpeak)
+
+Maximum Input                     Whether the probe is used or not, the transient overvoltage
+Voltage                           is not allowed to occur.
+                        Remarks
+                                  Please use the instrument dedicated for the specified
+                                  measurement category (not applicable to CAT II, III, and IV)
+
+Vertical Resolution               12 bits
+
+Vertical Sensitivity
+                                  500 μV/div to 10 V/div
+Range[4]
+
+                                  ±0.5 V (<500 μV/div)
+
+                                  ±1 V (≥500 μV/div, ≤65 mV/div)
+
+Offset Range                      ±8 V (>65 mV/div, ≤270 mV/div)
+
+                                  ±20 V (>270 mV/div, ≤2.75 V/div)
+
+                                  ±100 V (>2.75 V/div, ≤10 V/div)
+
+Dynamic Range                     ±4 div (12 bits)
+
+Bandwidth Limit
+                                  20 MHz, FULL; selectable for each channel
+(Typical)
+
+                                  ± 1% (>5mV/div, FullScale)
+DC Gain Accuracy[4]
+                                  ± 2% (≤5mV/div, FullScale, Typ.)
+
+                                  ≤200 mV/div (±0.1 div ± 2 mV ± 1.5% of offset value)
+DC Offset Accuracy
+                                  >200 mV/div (±0.1 div ± 2 mV ± 1.0% of offset value)
+
+
+
+
+ Page 7
+Vertical System Analog Channel
+
+Channel-to-Channel
+                                       ≥100:1
+Isolation
+
+ESD Tolerance                          ±8 kV (on input BNCs)
+
+
+
+Horizontal System--Analog Channel
+Horizontal System--Analog Channel
+
+                                        5 ns/div to 500 s/div
+Range of Time Base
+                                        Fine
+
+Time Base Resolution                    100 ps
+
+Time Base Accuracy                      ±25 ppm ± 5 ppm/year
+
+                        Pre-trigger     -5 div
+Time Base Delay Range
+                        Post-trigger    1 s or 100 div, whichever is greater
+
+                                        ±(Time Base Accuracy x Readout) ± (0.001 x Screen Width)
+Delta Time Accuracy
+                                        ± 20 ps
+
+Channel-to-Channel
+                                        ±100 ns, Accuracy ± 1 ps
+Skew Correction
+
+Analog Channel-to-Channel Delay
+                                        ≤2 ns
+(Typical)[5]
+
+                        YT              Default
+
+                        XY              Channel 1/2/3/4
+
+Horizontal Mode
+                        SCAN            Time base ≥200 ms/div
+
+                                        Time base ≥50 ms/div, available to enter or exit the ROLL
+                        ROLL
+                                        mode by adjusting the horizontal timebase knob
+
+
+
+
+                                                                                            Page 8
+Acquisition System
+Acquisition System
+
+                        Two-channel model:
+
+Max. Sample Rate of     1.25 GSa/s (single-channel[1]), 625 MSa/s (full-channel[3])
+Analog Channel          four-channel model:
+                        1.25 GSa/s (single-channel[1]), 625 MSa/s (dual-channel[2]), 312.5 MSa/s
+                        (full-channel[3])
+
+                        Two-channel model:
+
+Max. Memory Depth       25 Mpts (dual-channel[2]), 10 Mpts (full-channel[3])
+of Analog Channel       four-channel model:
+                        25 Mpts (single-channel[1]), 10 Mpts (dual-channel[2]), 5 Mpts (full-
+                        channel[3])
+
+                        Normal         Default
+
+                        Peak
+                                       Capture 1.6 ns glitches
+                        Detection
+Acquisition Mode
+                        Average
+                                       2, 4, 8, 16…65536 are available for you to choose
+                        Type
+
+                        UltraAcquire Waveform capture rate up to 1,000,000 wfms/s
+
+
+
+Trigger System
+Trigger System
+
+Trigger Source                      Analog channel (CH1 to CH4), EXT TRIG[6]
+
+Trigger Mode                        Auto, Normal, Single
+
+                   DC               DC coupling trigger
+
+                   AC               AC coupling trigger
+
+                   High
+Trigger Coupling
+                   Frequency        Cut-off frequency to 120 kHz (internal trigger only)
+                   Rejection
+
+                   Low Frequency
+                                 Cut-off frequency to 120 kHz (internal trigger only)
+                   Rejection
+
+                                    Increases delay for the trigger circuit (internal trigger only),
+Noise Rejection
+                                    On/Off
+
+Holdoff Range                       8 ns to 10 s
+
+
+ Page 9
+Trigger System
+
+Trigger
+                                      Internal trigger: analog bandwidth of the oscilloscope
+Bandwidth
+
+                                      Internal trigger: 0.5 div, ≥50 mV/div; 0.7 div (with noise
+Trigger Sensitivity                   rejection enabled)
+
+                                      External trigger[6]: 500 mVpp (DC to 100 MHz)
+
+
+Trigger Level                         Internal trigger: ±4.5 div from the center of the screen
+Range                                 External trigger[6]:±5 V
+
+
+Trigger Type
+Trigger Type
+
+                      Edge trigger, Pulse trigger, Slope trigger, Video trigger, Pattern trigger,
+Trigger Type          Duration trigger, Timeout trigger, Runt trigger, Window trigger, Delay trigger,
+                      Setup/Hold trigger, Nth Edge trigger, RS232/UART, I2C, SPI, CAN
+
+                      Triggers on the threshold of the specified edge of the input signal. The edge
+Edge                  types can be Rising, Falling, or Either.
+                      Source channel: CH1 to CH4, and EXT[6]
+
+                      Triggers on the positive or negative pulse with a specified width. The pulse
+Pulse                 width is greater or smaller than a certain value or within a certain time range.
+                      Source channel: CH1 to CH4
+
+                      Triggers on the positive or negative slope of the specified time. The slew time
+Slope                 is greater or smaller than a certain value or within a certain time range.
+                      Source channel: CH1 to CH4
+
+                      Triggers on all lines, specified line, odd field, or even field that conforms to the
+                      video standards. The supported video standards include NTSC, PAL/SECAM,
+                      480p/60Hz, 576p/50Hz, 720p/60Hz, 720p/50Hz, 720p/30Hz, 720p/25Hz, 720p/
+Video
+                      24Hz, 1080p/60Hz, 1080p/50Hz, 1080p/30Hz, 1080p/25Hz, 1080p/24Hz, 1080i/
+                      60Hz, and 1080i/50Hz.
+                      Source channel: CH1 to CH4
+
+                      Identifies a trigger condition by searching for a specified pattern. The pattern is
+                      a combination of multiple selected channel sources. The logic pattern of each
+Pattern
+                      channel is H, L, X, Rising, or Falling.
+                      Source channel: CH1 to CH4
+
+                      Triggers when the specified pattern meets the specified duration condition.
+                      The pattern is a combination of multiple selected channel sources. The logic
+Duration              pattern of each channel is H, L, and X. The duration is greater or smaller than a
+                      certain value, or within a certain time range, or outside a certain time range.
+                      Source channel: CH1 to CH4
+
+                                                                                                 Page 10
+Trigger Type
+
+                Triggers when duration of a certain event exceeds the specified time. The event
+Timeout         can be specified as Rising, Falling, or Either.
+                Source channel: CH1 to CH4
+
+                Triggers when the pulses pass through one threshold but fail to pass through
+Runt            another threshold.
+                Source channel: CH1 to CH4
+
+                Triggers in a specified window state when the rising edge of the signal crosses
+                the upper threshold or the falling edge crosses the lower threshold. The
+Window
+                window state can be Enter, Exit, or Time.
+                Source channel: CH1 to CH4
+
+                Triggers when the time difference between the specified edges of Source A
+                and Source B meets the preset time. The duration is greater or smaller than a
+Delay
+                certain value, or within a certain time range, or outside a certain time range.
+                Source channel: CH1 to CH4
+
+                When the setup time or hold time between the input clock signal and the data
+Setup/Hold      signal is smaller than the specified time.
+                Source channel: CH1 to CH4
+
+                Triggers on the Nth edge that appears after the specified idle time. The edge
+Nth Edge        can be specified as Rising or Falling.
+                Source channel: CH1 to CH4
+
+                Triggers on the Start, Error, Check Error, or Data frame of the RS232/UART bus
+RS232/UART      (up to 20 Mb/s).
+                Source channel: CH1 to CH4
+
+                Triggers on the Start, Stop, Restart, MissedACK, Address (7 bits, 8 bits, or 10
+I2C             bits), Data, or Address Data of the I2C bus.
+                Source channel: CH1 to CH4
+
+                Triggers on the specified pattern of the specified data width (4 to 32) of SPI
+SPI             bus. CS[7] and Timeout are supported.
+                Source channel: CH1 to CH4
+
+                Triggers on the start of a frame, end of a frame, Remote ID, Overload, Frame ID,
+                Frame Data, Data&ID, Frame Error, Answer Error, Check Error, Format Error, Bit
+CAN             Fill, and Random of the CAN signal (up to 5Mb/s). The supported CAN bus
+                signal types include CAN_H, CAN_L, TX/RX, and DIFF.
+                Source channel: CH1 to CH4, D0 to D15
+
+Search&Navigation
+Search&Navigation
+
+Type            Edge, Pulse
+
+
+ Page 11
+Search&Navigation
+
+Source           Analog channel
+
+                 Copies the search settings from or to the trigger settings mutually, including
+Copy
+                 threshold setting and search condition settings
+
+                 Displays in event table form; can be exported to the external or internal
+Result Display
+                 memory
+
+                 Time navigation: navigates to the acquired waveforms in time order.
+
+                 Event navigation: uses the navigation keys to scroll through the event search
+Navigation       results and navigates to the specified event.
+
+                 Frame navigation: navigates to the specified frame segment in UltraAcquire
+                 mode.
+
+
+Waveform Measurement
+Waveform Measurement
+
+                 Number of
+                                  2 pairs of XY cursors
+                 Cursors
+
+                                  Voltage deviation between cursors (∆Y)
+                 Manual Mode      Time deviation between cursors (∆X)
+                                  Reciprocal of ∆X (Hz) (1/∆X)
+
+                                  Fixes Y-axis to track X-axis waveform point's voltage and time
+Cursor           Track Mode       values
+                                  Fixes X-axis to track Y-axis waveform point's voltage and time
+                                  values
+
+                 Auto
+                                  Allows to display cursors during auto measurement
+                 Measurement
+
+                                  Measures the voltage parameters of the corresponding
+                 XY Mode          channel waveforms in XY time base mode.
+                                  X = Channel 1, Y = Channel 2
+
+
+
+
+                                                                                        Page 12
+Waveform Measurement
+
+                  Number of    41 auto measurements; and up to 10 measurements can be
+                  Measurements displayed at a time.
+
+                  Measurement
+                                  CH1 to CH4, Math1 to Math4
+                  Source
+
+                  Measurement
+                  Range           Main, Zoom
+                  (Region)
+
+                                  Displays 33 measurement items (vertical and horizontal) for
+                  All
+                                  the current measurement channel; the measurement results
+Auto              Measurement
+                                  are updated continuously.
+Measurement
+
+                                  Vmax, Vmin, Vpp, Vtop, Vbase, Vamp, Vupper, Vmid, Vlower,
+                  Vertical        Vavg, VRMS, Per. VRMS, Overshoot, Preshoot, Area, and Period
+                                  Area.
+
+                                  Period, Frequency, Rise Time, Fall Time, +Width, -Width, +Duty,
+                                  -Duty, Positive Pulse Count, Negative Pulse Count, Rising Edge
+                  Horizontal
+                                  Count, Falling Edge Count, Tvmax, Tvmin, +Slew Rate, and -
+                                  Slew Rate
+
+                                  Delay(A↑-B↑), Delay(A↑-B↓), Delay(A↓-B↑), Delay(A↓-B↓),
+                  Others
+                                  Phase(A↑-B↑), Phase(A↑-B↓), Phase(A↓-B↑), and Phase(A↓-B↓)
+
+
+Waveform Calculation
+Waveform Calculation
+
+No. of Math Functions             4 math functions available to be displayed at a time
+
+                                  A+B, A-B, A×B, A/B, FFT, A&&B, A||B, A^B, !A, Intg, Diff, Sqrt,
+Operation                         Lg, Ln, Exp, Abs, AX+B, LowPass, HighPass, BandPass, and
+                                  BandStop
+
+Color Grade                       Supports FFT
+
+                                  Max. 1 Mpts (The max. number of the points to be analyzed
+                  Record Length
+                                  for the FFT operation is 1 Mpts.)
+
+                                  Rectangular, Blackman-Harris, Hanning (default), Hamming,
+FFT               Window Type
+                                  Flattop, and Triangle.
+
+                                  A maximum of 15 peaks, determined by the user-defined
+                  Peak Search
+                                  threshold and offset threshold
+
+
+
+
+ Page 13
+Waveform Analysis
+Waveform Analysis
+
+                              Stores the signal under test in segments according to the
+                              trigger events, that is, saves all the sampled waveform data as
+                              a segment to the RAM for each trigger event. The maximum
+                              number of the sampled segments reaches 500,000.
+Waveform
+Recording       Source        All enabled analog channels
+
+                              Support playing frame by frame or continuous playing;
+                Analysis      capable of calculating, measuring, and decoding the played
+                              waveforms
+
+                              Compares the signal under test with the user-defined mask to
+                              provide the test results: the number of successful tests, failed
+                              tests, and the total number of tests. The pass/fail event can
+PassFail
+                              enable immediate stop, beeper, and the screenshot.
+
+                Source        Any analog channel
+
+                              The waveform histogram provides a group of data, showing
+                              the number of times a waveform hits within the defined region
+                              range on the screen. The waveform histogram not only shows
+                              the distribution of hits, but also the ordinary measurement
+                              statistics.
+
+                Source        Any analog channel, auto measurement item
+Histogram
+                Type          Horizontal, vertical, and measure
+
+                              Statistics: Sum, Peaks, Max, Min, Pk_Pk
+                Measure
+                              Histogram: Mean, Median, Mode, Bin width, Sigma, and XScale
+
+                Sampling
+                              Supports all modes, except the Zoom, XY, and ROLL modes
+                Mode
+
+                              Provides a dimensional view for waveform intensity, color
+                              grade >16, 256-level color scale display
+
+                Source        Any analog channel
+Color Grade
+                Color Theme   Temperature and intensity
+
+                Sampling
+                              Supports all modes
+                Mode
+
+
+
+
+                                                                                     Page 14
+Serial Decoding
+Serial Decoding
+
+Number of
+                    4 protocol types can be decoded and enabled at the same time
+Decodings
+
+Decoding Type       Standard: Parallel, RS232/UART, I2C, SPI, CAN
+
+                    Up to 4 bits of Parallel decoding, supporting any analog channel Support user-
+Parallel            defined clock and auto clock settings.
+
+                    Source channel: CH1 to CH4
+
+                    Decodes the RS232/UART (up to 20 Mb/s) bus's TX/RX data (5-9 bits), parity
+RS232/UART          (Odd, Even, or None), and stop bits (1-2 bits)
+
+                    Source channel: CH1 to CH4
+
+                    Decodes the address (with or without the R/W bit) of the I2C bus, data, and
+I2C                 ACK.
+
+                    Source channel: CH1 to CH4
+
+                    Decodes the MISO/MOSI data (4-32 bits) of the SPI bus. The available mode
+SPI                 includes "Timeout" and "CS"[7].
+
+                    Source channel: CH1 to CH4
+
+                    Decodes the remote frame (ID, byte number, CRC), overload frame, and data
+                    frame (standard/extended ID, control domain, data domain, CRC, and ACK) of
+CAN                 the CAN bus (up to 5 Mb/s). The supported CAN bus signal types include
+                    CAN_H, CAN_L, TX/RX, and DIFF.
+                    Source channel: CH1 to CH4
+
+Auto
+Auto
+
+AutoScale           Min voltage > 10 mVpp, duty cycle > 1%, frequency > 35 Hz
+
+
+Digital Voltmeter
+Digital Voltmeter
+
+Source              Any analog channel
+
+Function            DC, AC+DCrms, ACrms
+
+Resolution          ACV/DCV: 3 digits
+
+Limits Beeper       Sounds an alarm when the voltage value is within or outside of the limit range
+
+
+
+ Page 15
+High-precision Frequency Counter
+High-precision Frequency Counter
+
+Source                              Any analog channel and EXT[6]
+
+Measure                             Frequency, period, totalizer
+
+                   Resolution       3-6 digits, user-defined
+Counter
+                   Max. Frequency   Max. analog bandwidth
+
+                                    48-bit totalizer
+Totalizer
+                                    Counts the number of the rising edges
+
+Time Reference                      Internal reference
+
+
+Command Set
+Command Set
+
+Common Commands Support             IEEE488.2 Standard
+
+Error Message Definition            Error messages
+
+Support Status Report Mechanism     Status Reporting
+
+Support Syn Mechanism               Synchronization
+
+
+Display
+Display
+
+LCD                                 7-inch capacitive multi-touch screen, gesture enabled
+                                    operation
+
+Resolution                          1024×600 (Screen Region) 16:9
+
+Graticule                           10 horizontal divisions x 8 vertical divisions
+
+Persistence                         Off, Infinite, variable persistence (100 ms to 10 s)
+
+Brightness                          256 intensity levels (LCD, HDMI)
+
+
+Processor System
+Processor System
+
+Processor                           Cortex-A72 up to 1.8 GHz, 6-core processor
+
+
+
+                                                                                           Page 16
+Processor System
+
+System Memory                         4 GB RAM
+
+Operating System                      Android
+
+Internal Non-volatile Memory          8 GB
+
+
+I/O
+I/O
+
+USB2.0 Host                           1 on the front panel
+
+USB2.0 Device                         1 on the rear panel
+
+LAN                                   1 on the rear panel, 10/100 Base-T, supporting LXI-C
+
+                                      Supports Web Control interface (input the IP address of
+Web Remote
+                                      the oscilloscope into the Web browser to display the
+Control
+                                      operation interface of the oscilloscope)
+
+EXT Interface[6]   Trigger Input      1 on the front panel, BNC connector
+
+                                      1 on the rear panel, BNC connector
+
+                   Output Interface   Vo (H) ≥ 2.5 V open circuit, ≥1.0 V 50 Ω to GND
+
+                                      Vo (L) ≤ 0.7 V to load ≤4 mA, ≤0.25 V 50 Ω to GND
+
+AUX OUT
+                   Trigger Output     Outputs a pulse signal when the oscilloscope is triggered
+
+                                      Output a pulse signal when a pass/fail event occurs.
+                   Pass/Fail          Supports user-defined pulse polarity and pulse time (100
+                                      ns to 10 ms)
+
+                                      1 on the rear panel, HDMI 1.4, A plug. It is used to connect
+HDMI               Video Output
+                                      to an external monitor or projector
+
+Probe
+Compensation                          1 kHz, 3 Vpp square waveform
+Output
+
+
+Power Supply
+Power Supply
+
+Power Supply
+                   Type-C
+Interface
+
+Power Voltage      DC 15 V, 3 A
+
+
+ Page 17
+Power Supply
+
+                       Max. 45 W (when connected to various interfaces, USB storage device, active
+Power
+                       probes)
+
+
+Environment
+Environment
+
+                       Operating          0℃ to 50℃
+Temperature
+Range
+                       Non-operating      -30℃ to +60℃
+
+                                          below +30℃: ≤90% RH (without condensation)
+
+                       Operating          +30℃ to +40℃, ≤75% RH (without condensation)
+Humidity Range
+                                          +40℃ to +50℃, ≤45% RH (without condensation)
+
+                       Non-operating      below 60℃: ≤90% RH (without condensation)
+
+                       Operating          below 3,000 m
+Altitude
+                       Non-operating      Below 15,000 m
+
+
+Warranty and Calibration Interval
+Warranty and Calibration Interval
+
+Warranty                   Three years for the mainframe, excluding the probes and accessories.
+
+Recommended
+                           18 months
+Calibration Interval
+
+
+
+
+                                                                                           Page 18
+Regulations
+Regulations
+
+                  Compliant with EMC DIRECTIVE 2014/30/EU, compliant with or higher than
+                  the standards specified in IEC 61326-1:2013/EN 61326-1:2013 Group 1 Class
+                  A
+
+                  CISPR 11/EN 55011
+
+                  IEC 61000-4-2:2008/EN        ±4.0 kV (contact discharge), ±8.0 kV (air
+                  61000-4-2                    discharge)
+
+                  IEC 61000-4-3:2002/EN        3 V/m (80 MHz to 1 GHz); 3 V/m (1.4 GHz to
+                  61000-4-3                    2 GHz); 1 V/m (2.0 GHz to 2.7 GHz)
+
+Electromagnetic   IEC 61000-4-4:2004/EN
+Compatibility                                  1 kV power line
+                  61000-4-4
+
+                                               0.5 kV (phase-to-neutral voltage); 1 kV
+                  IEC 61000-4-5:2001/EN
+                                               (phase-to-earth voltage); 1 kV (neutral-to-
+                  61000-4-5
+                                               earth voltage)
+
+                  IEC 61000-4-6:2003/EN
+                                               3 V, 0.15-80 MHz
+                  61000-4-6
+
+                                               Voltage dip: 0% UT during half cycle; 0% UT
+                  IEC 61000-4-11:2004/EN       during 1 cycle ; 70% UT during 25 cycles
+                  61000-4-11
+                                               short interruption: 0% UT during 250 cycles
+
+                  EN 61010-1:2019
+
+                  EN 61010-031:2015
+
+                  IEC 61010-1:2016
+
+                  IEC 61010-2-030:2017
+
+Safety            UL 61010-1:2012 R7
+
+                  UL 61010-2-31:2017 R2
+
+                  CAN/CSA-22.2 No. 61010-1-12:2017
+
+                  CAN/CSA-22.2 No. 61010-2-30:2018
+
+                  CAN/CSA-22.2 No. 61010-031-07:201
+
+                  Meets GB/T 6587; class 2 random
+Vibration
+                  Meets MIL-PRF-28800F and IEC60068-2-6; class 3 random
+
+
+
+
+ Page 19
+Regulations
+
+                               Meets GB/T 6587-2012; class 2 random
+
+                               Meets MIL-PRF-28800F and IEC 60068-2-27; class 3 random
+Shock
+                               In non-operating conditions: 30 g, half-sine wave, 11 ms duration, 3 shocks
+                               along the main axis, total of 18 shocks
+
+
+Mechanical Characteristics
+Mechanical Characteristics
+
+Dimensions                       265.35 mm (W) x 161.75 mm (H) x 77.38 mm (D)
+
+                                 Package excluded: 1.78 kg
+Weight[8]
+                                 Package included: 2.78 kg
+
+
+Non-volatile Memory
+Non-volatile Memory
+
+                                 Setup/Image             setup (*.stp), image (*.png, *.bmp, *.jpg)
+
+Data/File Storage                              CSV waveform data (*.csv), binary waveform data
+                                 Waveform Data (*.bin,), list data (*.csv), and reference waveform data
+                                               (*.ref, *.csv, *.bin)
+
+Internal Capacity                                        8 GB
+
+Reference Waveform                                       Displays 10 internal waveforms
+
+Setting                                                  Storage is limited by the capacity
+
+                                                         Supports the USB storage device that conforms to the
+USB Capacity
+                                                         industry standard
+
+Note:
+[1]: Single-channel mode: If any one of the channels is enabled, it is called single-channel mode.
+[2]: Dual-channel mode: For four-channel models, if any two of the channels are enabled, it is called dual-channel mode.
+[3]: Full-channel mode: For two-channel models, if all of the two channels are enabled, it is called full-channel mode; for four-
+channel models, if any three channels or all of the four channels are enabled, it is called full-channel mode.
+[4]: 500 μV/div is a magnification of 1 mV/div setting. For vertical accuracy calculations, use full scale of 8 mV.
+[5]: For any channel, under the same input impedance with DC-coupled, the Volts/div setting is the same for 100 mV/div and
+200 mV/div.
+[6]: Only available for the two-channel models.
+[7]: Only available for the four-channel models.
+[8]: Standard configuration.
+
+
+
+
+                                                                                                                      Page 20
+Order Information and Warranty
+Period
+
+Order Information
+
+Order Information                                                           Order No.
+
+Model
+
+100 MHz, 1.25 GSa/s, 25 Mpts, 4CH                                           DHO814
+
+100 MHz, 1.25 GSa/s, 25 Mpts, 2CH                                           DHO812
+
+70 MHz, 1.25 GSa/s, 25 Mpts, 4CH                                            DHO804
+
+70 MHz, 1.25 GSa/s, 25 Mpts, 2CH                                            DHO802
+
+Standard Accessories
+Power Adaptor Conforming to the Standard of the Destination                 ——
+Country
+
+Banana-Plug Ground Connecting Cable                                         ——
+
+DHO814/DHO804: Passive Probe x4 (150 MHz)
+                                                                            PVP3150
+DHO812/DHO802: Passive Probe x2 (150 MHz)
+
+
+NOTE:
+
+For all the mainframes, accessories and options, please contact the local office of RIGOL.
+
+
+
+
+Warranty Period
+
+Three years for the mainframe, excluding the probes and accessories.
+
+
+
+
+  Page 21
+Option Ordering and Installation
+Process
+
+
+
+
+1. According to the usage requirements, please purchase the specified function options from RIGOL
+
+   Sales Personnel, and provide the serial number of the instrument that needs to install the option.
+
+2. After receiving the option order, the RIGOL factory will mail the paper software product
+
+   entitlement certificate to the address provided in the order.
+
+3. Log in to RIGOL official website for registration. Use the software key and instruments serial
+
+   number provided in the entitlement certificate to obtain the option license code and the option
+
+   license file.
+
+4. Install the option by running the SCPI command concerning the option installation. You can also
+
+   save the option license file to the root directory of the USB storage device. Then insert it to the
+
+   instrument. After being recognized, follow the instructions to install the option.
+
+
+NOTE:
+If any problems occur during the option installation process, please contact RIGOL technical team.
+
+
+
+
+                                                                                                     Page 22
+

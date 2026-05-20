@@ -1,0 +1,22 @@
+[project]
+name = "rigol-dho814-mcp"
+version = "0.1.0"
+description = "MCP server for full Rigol DHO814 oscilloscope control over LAN SCPI and web endpoints."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "mcp>=1.9.0",
+  "requests>=2.32.0",
+  "websockets>=15.0.0",
+]
+
+[project.scripts]
+rigol-dho814-mcp = "rigol_dho814_mcp.server:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+include-package-data = true
+
+[tool.setuptools.packages.find]
+where = ["src"]
+

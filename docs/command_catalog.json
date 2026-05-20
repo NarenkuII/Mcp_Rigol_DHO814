@@ -1,0 +1,5768 @@
+[
+  {
+    "command": "*CLS",
+    "section": "3.12.3",
+    "page": "127",
+    "line": "9256"
+  },
+  {
+    "command": "*ESE",
+    "section": "3.12.4",
+    "page": "127",
+    "arguments": "<maskargument>",
+    "line": "9282"
+  },
+  {
+    "command": "*ESE?",
+    "line": "9293"
+  },
+  {
+    "command": "*ESR?",
+    "section": "3.12.5",
+    "page": "128",
+    "line": "9328"
+  },
+  {
+    "command": "*IDN?",
+    "section": "3.12.1",
+    "page": "126",
+    "line": "9186"
+  },
+  {
+    "command": "*OPC",
+    "section": "3.12.6",
+    "page": "129",
+    "line": "9367"
+  },
+  {
+    "command": "*OPC?",
+    "line": "1398"
+  },
+  {
+    "command": "*RCL",
+    "section": "3.12.7",
+    "page": "129",
+    "line": "9400"
+  },
+  {
+    "command": "*RST",
+    "section": "3.12.2",
+    "page": "127",
+    "line": "9230"
+  },
+  {
+    "command": "*SAV",
+    "section": "3.12.8",
+    "page": "130",
+    "arguments": "<value>",
+    "line": "9439"
+  },
+  {
+    "command": "*SRE",
+    "section": "3.12.9",
+    "page": "130",
+    "arguments": "<maskargument>",
+    "line": "9468"
+  },
+  {
+    "command": "*SRE?",
+    "line": "9470"
+  },
+  {
+    "command": "*STB?",
+    "section": "3.12.10",
+    "page": "131",
+    "line": "9516"
+  },
+  {
+    "command": "*TST?",
+    "section": "3.12.12",
+    "page": "132",
+    "line": "9585"
+  },
+  {
+    "command": "*WAI",
+    "section": "3.12.11",
+    "page": "131",
+    "line": "1339"
+  },
+  {
+    "command": ":ACQuire:AVERages",
+    "section": "3.3.1",
+    "page": "19",
+    "arguments": "<count>",
+    "line": "1989"
+  },
+  {
+    "command": ":ACQuire:AVERages?",
+    "line": "1991"
+  },
+  {
+    "command": ":ACQuire:MDEPth",
+    "section": "3.3.2",
+    "page": "20",
+    "arguments": "<mdep>",
+    "line": "2047"
+  },
+  {
+    "command": ":ACQuire:MDEPth?",
+    "line": "2049"
+  },
+  {
+    "command": ":ACQuire:SRATe?",
+    "section": "3.3.4",
+    "page": "22",
+    "line": "2193"
+  },
+  {
+    "command": ":ACQuire:TYPE",
+    "section": "3.3.3",
+    "page": "21",
+    "arguments": "<type>",
+    "line": "960"
+  },
+  {
+    "command": ":ACQuire:TYPE?",
+    "line": "962"
+  },
+  {
+    "command": ":ACQuire:ULTRa:MAXFrame",
+    "section": "3.3.7",
+    "page": "24",
+    "arguments": "<frame>",
+    "line": "2349"
+  },
+  {
+    "command": ":ACQuire:ULTRa:MAXFrame?",
+    "line": "2351"
+  },
+  {
+    "command": ":ACQuire:ULTRa:MODE",
+    "section": "3.3.5",
+    "page": "23",
+    "arguments": "<mode>",
+    "line": "2233"
+  },
+  {
+    "command": ":ACQuire:ULTRa:MODE?",
+    "line": "2235"
+  },
+  {
+    "command": ":ACQuire:ULTRa:TIMeout",
+    "section": "3.3.6",
+    "page": "24",
+    "arguments": "<tmo>",
+    "line": "2316"
+  },
+  {
+    "command": ":ACQuire:ULTRa:TIMeout?",
+    "line": "2318"
+  },
+  {
+    "command": ":AUToset",
+    "section": "3.2.1",
+    "page": "14",
+    "line": "1651"
+  },
+  {
+    "command": ":AUToset:ENAble",
+    "section": "3.2.7",
+    "page": "18",
+    "arguments": "<bool>",
+    "line": "1929"
+  },
+  {
+    "command": ":AUToset:ENAble?",
+    "line": "1931"
+  },
+  {
+    "command": ":AUToset:KEEPcoup",
+    "section": "3.2.5",
+    "page": "17",
+    "arguments": "<bool>",
+    "line": "1843"
+  },
+  {
+    "command": ":AUToset:KEEPcoup?",
+    "line": "1845"
+  },
+  {
+    "command": ":AUToset:LOCK",
+    "section": "3.2.6",
+    "page": "17",
+    "arguments": "<bool>",
+    "line": "1881"
+  },
+  {
+    "command": ":AUToset:LOCK?",
+    "line": "1893"
+  },
+  {
+    "command": ":AUToset:OPENch",
+    "section": "3.2.3",
+    "page": "15",
+    "arguments": "<bool>",
+    "line": "1737"
+  },
+  {
+    "command": ":AUToset:OPENch?",
+    "line": "1739"
+  },
+  {
+    "command": ":AUToset:OVERlap",
+    "section": "3.2.4",
+    "page": "16",
+    "arguments": "<bool>",
+    "line": "1793"
+  },
+  {
+    "command": ":AUToset:OVERlap?",
+    "line": "1795"
+  },
+  {
+    "command": ":AUToset:PEAK",
+    "section": "3.2.2",
+    "page": "15",
+    "arguments": "<bool>",
+    "line": "1704"
+  },
+  {
+    "command": ":AUToset:PEAK?",
+    "line": "1706"
+  },
+  {
+    "command": ":BODeplot:ENABle",
+    "section": "3.5.1",
+    "page": "64",
+    "arguments": "<bool>",
+    "line": "5022"
+  },
+  {
+    "command": ":BODeplot:ENABle?",
+    "line": "5024"
+  },
+  {
+    "command": ":BODeplot:POINts",
+    "section": "3.5.8",
+    "page": "69",
+    "arguments": "<num>",
+    "line": "5321"
+  },
+  {
+    "command": ":BODeplot:POINts?",
+    "line": "5323"
+  },
+  {
+    "command": ":BODeplot:REF:IN",
+    "section": "3.5.4",
+    "page": "66",
+    "arguments": "<source>",
+    "line": "5147"
+  },
+  {
+    "command": ":BODeplot:REF:IN?",
+    "line": "5149"
+  },
+  {
+    "command": ":BODeplot:REF:OUT",
+    "section": "3.5.5",
+    "page": "67",
+    "arguments": "<source>",
+    "line": "5192"
+  },
+  {
+    "command": ":BODeplot:REF:OUT?",
+    "line": "5194"
+  },
+  {
+    "command": ":BODeplot:RUNStop",
+    "section": "3.5.2",
+    "page": "65",
+    "arguments": "<bool>",
+    "line": "5066"
+  },
+  {
+    "command": ":BODeplot:RUNStop?",
+    "line": "5068"
+  },
+  {
+    "command": ":BODeplot:STARt",
+    "section": "3.5.6",
+    "page": "67",
+    "arguments": "<freq>",
+    "line": "5227"
+  },
+  {
+    "command": ":BODeplot:STARt?",
+    "line": "5229"
+  },
+  {
+    "command": ":BODeplot:STOP",
+    "section": "3.5.7",
+    "page": "68",
+    "arguments": "<freq>",
+    "line": "5273"
+  },
+  {
+    "command": ":BODeplot:STOP?",
+    "line": "5275"
+  },
+  {
+    "command": ":BODeplot:SWEeptype",
+    "section": "3.5.3",
+    "page": "65",
+    "arguments": "<type>",
+    "line": "5098"
+  },
+  {
+    "command": ":BODeplot:SWEeptype?",
+    "line": "5100"
+  },
+  {
+    "command": ":BODeplot:VOLTage",
+    "section": "3.5.9",
+    "page": "69",
+    "arguments": "<range>,<amp>",
+    "line": "5354"
+  },
+  {
+    "command": ":BODeplot:VOLTage?",
+    "arguments": "<range>",
+    "line": "5356"
+  },
+  {
+    "command": ":BUS<n>:CAN",
+    "section": "3.4.14",
+    "page": "58"
+  },
+  {
+    "command": ":BUS<n>:CAN:BAUD",
+    "section": "3.4.14.3",
+    "page": "60",
+    "arguments": "<baud>",
+    "line": "4755"
+  },
+  {
+    "command": ":BUS<n>:CAN:BAUD?",
+    "line": "4757"
+  },
+  {
+    "command": ":BUS<n>:CAN:SOURce",
+    "section": "3.4.14.1",
+    "page": "59",
+    "arguments": "<source>",
+    "line": "4654"
+  },
+  {
+    "command": ":BUS<n>:CAN:SOURce?",
+    "line": "4656"
+  },
+  {
+    "command": ":BUS<n>:CAN:SPOint",
+    "section": "3.4.14.4",
+    "page": "61",
+    "arguments": "<spoint>",
+    "line": "4803"
+  },
+  {
+    "command": ":BUS<n>:CAN:SPOint?",
+    "line": "4805"
+  },
+  {
+    "command": ":BUS<n>:CAN:STYPe",
+    "section": "3.4.14.2",
+    "page": "60",
+    "arguments": "<stype>",
+    "line": "4706"
+  },
+  {
+    "command": ":BUS<n>:CAN:STYPe?",
+    "line": "4708"
+  },
+  {
+    "command": ":BUS<n>:DATA?",
+    "section": "3.4.6",
+    "page": "28",
+    "line": "2615"
+  },
+  {
+    "command": ":BUS<n>:DISPlay",
+    "section": "3.4.2",
+    "page": "26",
+    "arguments": "<bool>",
+    "line": "2447"
+  },
+  {
+    "command": ":BUS<n>:DISPlay?",
+    "line": "2449"
+  },
+  {
+    "command": ":BUS<n>:EEXPort",
+    "section": "3.4.7",
+    "page": "29",
+    "arguments": "<path>",
+    "line": "2677"
+  },
+  {
+    "command": ":BUS<n>:EVENt",
+    "section": "3.4.4",
+    "page": "27",
+    "arguments": "<bool>",
+    "line": "2534"
+  },
+  {
+    "command": ":BUS<n>:EVENt?",
+    "line": "2536"
+  },
+  {
+    "command": ":BUS<n>:FORMat",
+    "section": "3.4.3",
+    "page": "26",
+    "arguments": "<format>",
+    "line": "2482"
+  },
+  {
+    "command": ":BUS<n>:FORMat?",
+    "line": "2484"
+  },
+  {
+    "command": ":BUS<n>:IIC",
+    "section": "3.4.12",
+    "page": "45"
+  },
+  {
+    "command": ":BUS<n>:IIC:ADDRess",
+    "section": "3.4.12.4",
+    "page": "48",
+    "arguments": "<addr>",
+    "line": "3906"
+  },
+  {
+    "command": ":BUS<n>:IIC:ADDRess?",
+    "line": "3908"
+  },
+  {
+    "command": ":BUS<n>:IIC:EXCHange",
+    "section": "3.4.12.3",
+    "page": "47",
+    "arguments": "<bool>",
+    "line": "3857"
+  },
+  {
+    "command": ":BUS<n>:IIC:EXCHange?",
+    "line": "3859"
+  },
+  {
+    "command": ":BUS<n>:IIC:SCLK:SOURce",
+    "section": "3.4.12.1",
+    "page": "46",
+    "arguments": "<source>",
+    "line": "3764"
+  },
+  {
+    "command": ":BUS<n>:IIC:SCLK:SOURce?",
+    "line": "3766"
+  },
+  {
+    "command": ":BUS<n>:IIC:SDA:SOURce",
+    "section": "3.4.12.2",
+    "page": "46",
+    "arguments": "<source>",
+    "line": "3804"
+  },
+  {
+    "command": ":BUS<n>:IIC:SDA:SOURce?",
+    "line": "3806"
+  },
+  {
+    "command": ":BUS<n>:LABel",
+    "section": "3.4.5",
+    "page": "28",
+    "arguments": "<bool>",
+    "line": "2580"
+  },
+  {
+    "command": ":BUS<n>:LABel?",
+    "line": "2582"
+  },
+  {
+    "command": ":BUS<n>:LIN",
+    "section": "3.4.15",
+    "page": "62"
+  },
+  {
+    "command": ":BUS<n>:LIN:PARity",
+    "section": "3.4.15.1",
+    "page": "62",
+    "arguments": "<bool>",
+    "line": "4865"
+  },
+  {
+    "command": ":BUS<n>:LIN:PARity?",
+    "line": "4867"
+  },
+  {
+    "command": ":BUS<n>:LIN:SOURce",
+    "section": "3.4.15.2",
+    "page": "63",
+    "arguments": "<source>",
+    "line": "4915"
+  },
+  {
+    "command": ":BUS<n>:LIN:SOURce?",
+    "line": "4917"
+  },
+  {
+    "command": ":BUS<n>:LIN:STANdard",
+    "section": "3.4.15.3",
+    "page": "63",
+    "arguments": "<value>",
+    "line": "4955"
+  },
+  {
+    "command": ":BUS<n>:LIN:STANdard?",
+    "line": "4957"
+  },
+  {
+    "command": ":BUS<n>:MODE",
+    "section": "3.4.1",
+    "page": "25",
+    "arguments": "<mode>",
+    "line": "2403"
+  },
+  {
+    "command": ":BUS<n>:MODE?",
+    "line": "2405"
+  },
+  {
+    "command": ":BUS<n>:PARallel",
+    "section": "3.4.10",
+    "page": "32"
+  },
+  {
+    "command": ":BUS<n>:PARallel:BITX",
+    "section": "3.4.10.5",
+    "page": "36",
+    "arguments": "<bit>",
+    "line": "3111"
+  },
+  {
+    "command": ":BUS<n>:PARallel:BITX?",
+    "line": "3113"
+  },
+  {
+    "command": ":BUS<n>:PARallel:BUS",
+    "section": "3.4.10.1",
+    "page": "33",
+    "arguments": "<source>",
+    "line": "2914"
+  },
+  {
+    "command": ":BUS<n>:PARallel:BUS?",
+    "line": "2916"
+  },
+  {
+    "command": ":BUS<n>:PARallel:CLK",
+    "section": "3.4.10.2",
+    "page": "34",
+    "arguments": "<source>",
+    "line": "2965"
+  },
+  {
+    "command": ":BUS<n>:PARallel:CLK?",
+    "line": "2967"
+  },
+  {
+    "command": ":BUS<n>:PARallel:ENDian",
+    "section": "3.4.10.7",
+    "page": "37"
+  },
+  {
+    "command": ":BUS<n>:PARallel:POLarity",
+    "section": "3.4.10.8",
+    "page": "38",
+    "arguments": "<pol>",
+    "line": "3267"
+  },
+  {
+    "command": ":BUS<n>:PARallel:POLarity?",
+    "line": "3269"
+  },
+  {
+    "command": ":BUS<n>:PARallel:SLOPe",
+    "section": "3.4.10.3",
+    "page": "34",
+    "arguments": "<slope>",
+    "line": "3007"
+  },
+  {
+    "command": ":BUS<n>:PARallel:SLOPe?",
+    "line": "3009"
+  },
+  {
+    "command": ":BUS<n>:PARallel:SOURce",
+    "section": "3.4.10.6",
+    "page": "37",
+    "arguments": "<src>",
+    "line": "3166"
+  },
+  {
+    "command": ":BUS<n>:PARallel:SOURce?",
+    "line": "3168"
+  },
+  {
+    "command": ":BUS<n>:PARallel:WIDTh",
+    "section": "3.4.10.4",
+    "page": "35",
+    "arguments": "<wid>",
+    "line": "3056"
+  },
+  {
+    "command": ":BUS<n>:PARallel:WIDTh?",
+    "line": "3058"
+  },
+  {
+    "command": ":BUS<n>:POSition",
+    "section": "3.4.8",
+    "page": "30",
+    "arguments": "<pos>",
+    "line": "2738"
+  },
+  {
+    "command": ":BUS<n>:POSition?",
+    "line": "2740"
+  },
+  {
+    "command": ":BUS<n>:RS232",
+    "section": "3.4.11",
+    "page": "39"
+  },
+  {
+    "command": ":BUS<n>:RS232:BAUD",
+    "section": "3.4.11.6",
+    "page": "43",
+    "arguments": "<baud>",
+    "line": "3605"
+  },
+  {
+    "command": ":BUS<n>:RS232:BAUD?",
+    "line": "3607"
+  },
+  {
+    "command": ":BUS<n>:RS232:DBITs",
+    "section": "3.4.11.7",
+    "page": "44",
+    "arguments": "<bits>",
+    "line": "3654"
+  },
+  {
+    "command": ":BUS<n>:RS232:DBITs?",
+    "line": "3656"
+  },
+  {
+    "command": ":BUS<n>:RS232:ENDian",
+    "section": "3.4.11.5",
+    "page": "43",
+    "arguments": "<endian>",
+    "line": "3564"
+  },
+  {
+    "command": ":BUS<n>:RS232:ENDian?",
+    "line": "3566"
+  },
+  {
+    "command": ":BUS<n>:RS232:PARity",
+    "section": "3.4.11.4",
+    "page": "42",
+    "arguments": "<parity>",
+    "line": "3505"
+  },
+  {
+    "command": ":BUS<n>:RS232:PARity?",
+    "line": "3507"
+  },
+  {
+    "command": ":BUS<n>:RS232:POLarity",
+    "section": "3.4.11.3",
+    "page": "41",
+    "arguments": "<pol>",
+    "line": "3453"
+  },
+  {
+    "command": ":BUS<n>:RS232:POLarity?",
+    "line": "3455"
+  },
+  {
+    "command": ":BUS<n>:RS232:RX",
+    "section": "3.4.11.2",
+    "page": "40",
+    "arguments": "<source>",
+    "line": "3398"
+  },
+  {
+    "command": ":BUS<n>:RS232:RX?",
+    "line": "3400"
+  },
+  {
+    "command": ":BUS<n>:RS232:SBITs",
+    "section": "3.4.11.8",
+    "page": "45",
+    "arguments": "<stop bits>",
+    "line": "3700"
+  },
+  {
+    "command": ":BUS<n>:RS232:SBITs?",
+    "line": "3702"
+  },
+  {
+    "command": ":BUS<n>:RS232:TX",
+    "section": "3.4.11.1",
+    "page": "40",
+    "arguments": "<source>",
+    "line": "3355"
+  },
+  {
+    "command": ":BUS<n>:RS232:TX?",
+    "line": "3357"
+  },
+  {
+    "command": ":BUS<n>:SPI",
+    "section": "3.4.13",
+    "page": "48"
+  },
+  {
+    "command": ":BUS<n>:SPI:DBITs",
+    "section": "3.4.13.8",
+    "page": "54",
+    "arguments": "<width>",
+    "line": "4312"
+  },
+  {
+    "command": ":BUS<n>:SPI:DBITs?",
+    "line": "4314"
+  },
+  {
+    "command": ":BUS<n>:SPI:ENDian",
+    "section": "3.4.13.9",
+    "page": "54",
+    "arguments": "<endian>",
+    "line": "4347"
+  },
+  {
+    "command": ":BUS<n>:SPI:ENDian?",
+    "line": "4349"
+  },
+  {
+    "command": ":BUS<n>:SPI:MISO:POLarity",
+    "section": "3.4.13.6",
+    "page": "52",
+    "arguments": "<polarity>",
+    "line": "4211"
+  },
+  {
+    "command": ":BUS<n>:SPI:MISO:POLarity?",
+    "line": "4213"
+  },
+  {
+    "command": ":BUS<n>:SPI:MISO:SOURce",
+    "section": "3.4.13.3",
+    "page": "50",
+    "arguments": "<source>",
+    "line": "4067"
+  },
+  {
+    "command": ":BUS<n>:SPI:MISO:SOURce?",
+    "line": "4069"
+  },
+  {
+    "command": ":BUS<n>:SPI:MODE",
+    "section": "3.4.13.10",
+    "page": "55",
+    "arguments": "<mode>",
+    "line": "4400"
+  },
+  {
+    "command": ":BUS<n>:SPI:MODE?",
+    "line": "4402"
+  },
+  {
+    "command": ":BUS<n>:SPI:MOSI:POLarity",
+    "section": "3.4.13.7",
+    "page": "53",
+    "arguments": "<polarity>",
+    "line": "4263"
+  },
+  {
+    "command": ":BUS<n>:SPI:MOSI:POLarity?",
+    "line": "4265"
+  },
+  {
+    "command": ":BUS<n>:SPI:MOSI:SOURce",
+    "section": "3.4.13.4",
+    "page": "51",
+    "arguments": "<source>",
+    "line": "4119"
+  },
+  {
+    "command": ":BUS<n>:SPI:MOSI:SOURce?",
+    "line": "4121"
+  },
+  {
+    "command": ":BUS<n>:SPI:POLarity",
+    "section": "3.4.13.5",
+    "page": "52",
+    "arguments": "<polarity>",
+    "line": "4174"
+  },
+  {
+    "command": ":BUS<n>:SPI:POLarity?",
+    "line": "4176"
+  },
+  {
+    "command": ":BUS<n>:SPI:SCLK:SLOPe",
+    "section": "3.4.13.2",
+    "page": "50",
+    "arguments": "<slope>",
+    "line": "4032"
+  },
+  {
+    "command": ":BUS<n>:SPI:SCLK:SLOPe?",
+    "line": "4034"
+  },
+  {
+    "command": ":BUS<n>:SPI:SCLK:SOURce",
+    "section": "3.4.13.1",
+    "page": "49",
+    "arguments": "<source>",
+    "line": "3980"
+  },
+  {
+    "command": ":BUS<n>:SPI:SCLK:SOURce?",
+    "line": "3982"
+  },
+  {
+    "command": ":BUS<n>:SPI:SS:POLarity",
+    "section": "3.4.13.13",
+    "page": "57",
+    "arguments": "<polarity>",
+    "line": "4552"
+  },
+  {
+    "command": ":BUS<n>:SPI:SS:POLarity?",
+    "line": "4554"
+  },
+  {
+    "command": ":BUS<n>:SPI:SS:SOURce",
+    "section": "3.4.13.12",
+    "page": "57",
+    "arguments": "<source>",
+    "line": "4507"
+  },
+  {
+    "command": ":BUS<n>:SPI:SS:SOURce?",
+    "line": "4509"
+  },
+  {
+    "command": ":BUS<n>:SPI:TIMeout:TIME",
+    "section": "3.4.13.11",
+    "page": "56",
+    "arguments": "<time>",
+    "line": "4454"
+  },
+  {
+    "command": ":BUS<n>:SPI:TIMeout:TIME?",
+    "line": "4456"
+  },
+  {
+    "command": ":BUS<n>:THReshold",
+    "section": "3.4.9",
+    "page": "31",
+    "arguments": "<value>,<type>",
+    "line": "2785"
+  },
+  {
+    "command": ":BUS<n>:THReshold?",
+    "arguments": "<type>",
+    "line": "2787"
+  },
+  {
+    "command": ":CHANnel<n>:BWLimit",
+    "section": "3.6.1",
+    "page": "71",
+    "arguments": "<val>",
+    "line": "5475"
+  },
+  {
+    "command": ":CHANnel<n>:BWLimit?",
+    "line": "5477"
+  },
+  {
+    "command": ":CHANnel<n>:COUPling",
+    "section": "3.6.2",
+    "page": "72",
+    "arguments": "<coupling>",
+    "line": "5522"
+  },
+  {
+    "command": ":CHANnel<n>:COUPling?",
+    "line": "5524"
+  },
+  {
+    "command": ":CHANnel<n>:DISPlay",
+    "section": "3.6.3",
+    "page": "72",
+    "arguments": "<bool>",
+    "line": "5562"
+  },
+  {
+    "command": ":CHANnel<n>:DISPlay?",
+    "line": "5564"
+  },
+  {
+    "command": ":CHANnel<n>:INVert",
+    "section": "3.6.4",
+    "page": "73",
+    "arguments": "<bool>",
+    "line": "5609"
+  },
+  {
+    "command": ":CHANnel<n>:INVert?",
+    "line": "5611"
+  },
+  {
+    "command": ":CHANnel<n>:LABel:CONTent",
+    "section": "3.6.10",
+    "page": "77",
+    "arguments": "<str>",
+    "line": "5902"
+  },
+  {
+    "command": ":CHANnel<n>:LABel:CONTent?",
+    "line": "5904"
+  },
+  {
+    "command": ":CHANnel<n>:LABel:SHOW",
+    "section": "3.6.9",
+    "page": "77",
+    "arguments": "<bool>",
+    "line": "5867"
+  },
+  {
+    "command": ":CHANnel<n>:LABel:SHOW?",
+    "line": "5869"
+  },
+  {
+    "command": ":CHANnel<n>:OFFSet",
+    "section": "3.6.5",
+    "page": "74",
+    "arguments": "<offset>",
+    "line": "5655"
+  },
+  {
+    "command": ":CHANnel<n>:OFFSet?",
+    "line": "5657"
+  },
+  {
+    "command": ":CHANnel<n>:POSition",
+    "section": "3.6.13",
+    "page": "79",
+    "arguments": "<offset>",
+    "line": "6036"
+  },
+  {
+    "command": ":CHANnel<n>:POSition?",
+    "line": "6038"
+  },
+  {
+    "command": ":CHANnel<n>:PROBe",
+    "section": "3.6.8",
+    "page": "76",
+    "arguments": "<atten>",
+    "line": "5807"
+  },
+  {
+    "command": ":CHANnel<n>:PROBe?",
+    "line": "5809"
+  },
+  {
+    "command": ":CHANnel<n>:SCALe",
+    "section": "3.6.7",
+    "page": "75",
+    "arguments": "<scale>",
+    "line": "5751"
+  },
+  {
+    "command": ":CHANnel<n>:SCALe?",
+    "line": "5753"
+  },
+  {
+    "command": ":CHANnel<n>:TCALibrate",
+    "section": "3.6.6",
+    "page": "74",
+    "arguments": "<val>",
+    "line": "5704"
+  },
+  {
+    "command": ":CHANnel<n>:TCALibrate?",
+    "line": "5706"
+  },
+  {
+    "command": ":CHANnel<n>:UNITs",
+    "section": "3.6.11",
+    "page": "78",
+    "arguments": "<units>",
+    "line": "5950"
+  },
+  {
+    "command": ":CHANnel<n>:UNITs?",
+    "line": "5952"
+  },
+  {
+    "command": ":CHANnel<n>:VERNier",
+    "section": "3.6.12",
+    "page": "79",
+    "arguments": "<bool>",
+    "line": "5999"
+  },
+  {
+    "command": ":CHANnel<n>:VERNier?",
+    "line": "6001"
+  },
+  {
+    "command": ":CLEar",
+    "section": "3.1.1",
+    "page": "11",
+    "line": "1450"
+  },
+  {
+    "command": ":COUNter:CURRent?",
+    "section": "3.7.1",
+    "page": "80",
+    "line": "6105"
+  },
+  {
+    "command": ":COUNter:ENABle",
+    "section": "3.7.2",
+    "page": "81",
+    "arguments": "<bool>",
+    "line": "6144"
+  },
+  {
+    "command": ":COUNter:ENABle?",
+    "line": "6146"
+  },
+  {
+    "command": ":COUNter:MODE",
+    "section": "3.7.4",
+    "page": "82",
+    "arguments": "<mode>",
+    "line": "6228"
+  },
+  {
+    "command": ":COUNter:MODE?",
+    "line": "6230"
+  },
+  {
+    "command": ":COUNter:NDIGits",
+    "section": "3.7.5",
+    "page": "83",
+    "arguments": "<val>",
+    "line": "6276"
+  },
+  {
+    "command": ":COUNter:NDIGits?",
+    "line": "6278"
+  },
+  {
+    "command": ":COUNter:SOURce",
+    "section": "3.7.3",
+    "page": "81",
+    "arguments": "<source>",
+    "line": "6177"
+  },
+  {
+    "command": ":COUNter:SOURce?",
+    "line": "6179"
+  },
+  {
+    "command": ":COUNter:TOTalize:CLEar",
+    "section": "3.7.7",
+    "page": "84",
+    "line": "6357"
+  },
+  {
+    "command": ":COUNter:TOTalize:ENABle",
+    "section": "3.7.6",
+    "page": "83",
+    "arguments": "<bool>",
+    "line": "6312"
+  },
+  {
+    "command": ":COUNter:TOTalize:ENABle?",
+    "line": "6314"
+  },
+  {
+    "command": ":CURSor:MANual",
+    "section": "3.8.3",
+    "page": "88"
+  },
+  {
+    "command": ":CURSor:MANual:AXValue?",
+    "section": "3.8.3.7",
+    "page": "92",
+    "line": "6862"
+  },
+  {
+    "command": ":CURSor:MANual:AYValue?",
+    "section": "3.8.3.8",
+    "page": "92",
+    "line": "6890"
+  },
+  {
+    "command": ":CURSor:MANual:BXValue?",
+    "section": "3.8.3.9",
+    "page": "93",
+    "line": "6937"
+  },
+  {
+    "command": ":CURSor:MANual:BYValue?",
+    "section": "3.8.3.10",
+    "page": "93",
+    "line": "6964"
+  },
+  {
+    "command": ":CURSor:MANual:CAX",
+    "section": "3.8.3.3",
+    "page": "89",
+    "arguments": "<ax>",
+    "line": "6684"
+  },
+  {
+    "command": ":CURSor:MANual:CAX?",
+    "line": "6686"
+  },
+  {
+    "command": ":CURSor:MANual:CAY",
+    "section": "3.8.3.4",
+    "page": "90",
+    "arguments": "<ay>",
+    "line": "6732"
+  },
+  {
+    "command": ":CURSor:MANual:CAY?",
+    "line": "6734"
+  },
+  {
+    "command": ":CURSor:MANual:CBX",
+    "section": "3.8.3.5",
+    "page": "90",
+    "arguments": "<bx>",
+    "line": "6767"
+  },
+  {
+    "command": ":CURSor:MANual:CBX?",
+    "line": "6769"
+  },
+  {
+    "command": ":CURSor:MANual:CBY",
+    "section": "3.8.3.6",
+    "page": "91",
+    "arguments": "<by>",
+    "line": "6815"
+  },
+  {
+    "command": ":CURSor:MANual:CBY?",
+    "line": "6817"
+  },
+  {
+    "command": ":CURSor:MANual:IXDelta?",
+    "section": "3.8.3.12",
+    "page": "94",
+    "line": "7039"
+  },
+  {
+    "command": ":CURSor:MANual:SOURce",
+    "section": "3.8.3.2",
+    "page": "88",
+    "arguments": "<source>",
+    "line": "6636"
+  },
+  {
+    "command": ":CURSor:MANual:SOURce?",
+    "line": "6638"
+  },
+  {
+    "command": ":CURSor:MANual:TYPE",
+    "section": "3.8.3.1",
+    "page": "88",
+    "arguments": "<type>",
+    "line": "6599"
+  },
+  {
+    "command": ":CURSor:MANual:TYPE?",
+    "line": "6601"
+  },
+  {
+    "command": ":CURSor:MANual:XDELta?",
+    "section": "3.8.3.11",
+    "page": "94",
+    "line": "7011"
+  },
+  {
+    "command": ":CURSor:MANual:YDELta?",
+    "section": "3.8.3.13",
+    "page": "95",
+    "line": "7079"
+  },
+  {
+    "command": ":CURSor:MEASure:INDicator",
+    "section": "3.8.2",
+    "page": "87",
+    "arguments": "<bool>",
+    "line": "6552"
+  },
+  {
+    "command": ":CURSor:MEASure:INDicator?",
+    "line": "6554"
+  },
+  {
+    "command": ":CURSor:MODE",
+    "section": "3.8.1",
+    "page": "86",
+    "arguments": "<mode>",
+    "line": "6498"
+  },
+  {
+    "command": ":CURSor:MODE?",
+    "line": "6500"
+  },
+  {
+    "command": ":CURSor:TRACk",
+    "section": "3.8.4",
+    "page": "95"
+  },
+  {
+    "command": ":CURSor:TRACk:AXValue?",
+    "section": "3.8.4.7",
+    "page": "99",
+    "line": "7375"
+  },
+  {
+    "command": ":CURSor:TRACk:AYValue?",
+    "section": "3.8.4.8",
+    "page": "100",
+    "line": "7414"
+  },
+  {
+    "command": ":CURSor:TRACk:BXValue?",
+    "section": "3.8.4.9",
+    "page": "100",
+    "line": "7441"
+  },
+  {
+    "command": ":CURSor:TRACk:BYValue?",
+    "section": "3.8.4.10",
+    "page": "101",
+    "line": "7478"
+  },
+  {
+    "command": ":CURSor:TRACk:CAX",
+    "section": "3.8.4.3",
+    "page": "97",
+    "arguments": "<ax>",
+    "line": "7209"
+  },
+  {
+    "command": ":CURSor:TRACk:CAX?",
+    "line": "7211"
+  },
+  {
+    "command": ":CURSor:TRACk:CAY",
+    "section": "3.8.4.5",
+    "page": "98",
+    "arguments": "<ay>",
+    "line": "7293"
+  },
+  {
+    "command": ":CURSor:TRACk:CAY?",
+    "line": "7295"
+  },
+  {
+    "command": ":CURSor:TRACk:CBX",
+    "section": "3.8.4.4",
+    "page": "97",
+    "arguments": "<bx>",
+    "line": "7245"
+  },
+  {
+    "command": ":CURSor:TRACk:CBX?",
+    "line": "7247"
+  },
+  {
+    "command": ":CURSor:TRACk:CBY",
+    "section": "3.8.4.6",
+    "page": "99",
+    "arguments": "<by>",
+    "line": "7340"
+  },
+  {
+    "command": ":CURSor:TRACk:CBY?",
+    "line": "7342"
+  },
+  {
+    "command": ":CURSor:TRACk:IXDelta?",
+    "section": "3.8.4.13",
+    "page": "102",
+    "line": "7570"
+  },
+  {
+    "command": ":CURSor:TRACk:MODE",
+    "section": "3.8.4.14",
+    "page": "103",
+    "arguments": "<mode>",
+    "line": "7610"
+  },
+  {
+    "command": ":CURSor:TRACk:MODE?",
+    "line": "7612"
+  },
+  {
+    "command": ":CURSor:TRACk:SOURce1",
+    "section": "3.8.4.1",
+    "page": "95",
+    "arguments": "<source>",
+    "line": "7110"
+  },
+  {
+    "command": ":CURSor:TRACk:SOURce1?",
+    "line": "7112"
+  },
+  {
+    "command": ":CURSor:TRACk:SOURce2",
+    "section": "3.8.4.2",
+    "page": "96",
+    "arguments": "<source>",
+    "line": "7160"
+  },
+  {
+    "command": ":CURSor:TRACk:SOURce2?",
+    "line": "7162"
+  },
+  {
+    "command": ":CURSor:TRACk:XDELta?",
+    "section": "3.8.4.11",
+    "page": "101",
+    "line": "7505"
+  },
+  {
+    "command": ":CURSor:TRACk:YDELta?",
+    "section": "3.8.4.12",
+    "page": "102",
+    "line": "7542"
+  },
+  {
+    "command": ":CURSor:XY",
+    "section": "3.8.5",
+    "page": "103"
+  },
+  {
+    "command": ":CURSor:XY:AX",
+    "section": "3.8.5.1",
+    "page": "103",
+    "arguments": "<x>",
+    "line": "7648"
+  },
+  {
+    "command": ":CURSor:XY:AX?",
+    "line": "7650"
+  },
+  {
+    "command": ":CURSor:XY:AXValue?",
+    "section": "3.8.5.5",
+    "page": "106",
+    "line": "7817"
+  },
+  {
+    "command": ":CURSor:XY:AY",
+    "section": "3.8.5.3",
+    "page": "105",
+    "arguments": "<y>",
+    "line": "7741"
+  },
+  {
+    "command": ":CURSor:XY:AY?",
+    "line": "7743"
+  },
+  {
+    "command": ":CURSor:XY:AYValue?",
+    "section": "3.8.5.6",
+    "page": "106",
+    "line": "7843"
+  },
+  {
+    "command": ":CURSor:XY:BX",
+    "section": "3.8.5.2",
+    "page": "104",
+    "arguments": "<x>",
+    "line": "7695"
+  },
+  {
+    "command": ":CURSor:XY:BX?",
+    "line": "7697"
+  },
+  {
+    "command": ":CURSor:XY:BXValue?",
+    "section": "3.8.5.7",
+    "page": "107",
+    "line": "7880"
+  },
+  {
+    "command": ":CURSor:XY:BY",
+    "section": "3.8.5.4",
+    "page": "105",
+    "arguments": "<y>",
+    "line": "7774"
+  },
+  {
+    "command": ":CURSor:XY:BY?",
+    "line": "7776"
+  },
+  {
+    "command": ":CURSor:XY:BYValue?",
+    "section": "3.8.5.8",
+    "page": "107",
+    "line": "7906"
+  },
+  {
+    "command": ":CURSor:XY:XDELta?",
+    "section": "3.8.5.9",
+    "page": "107",
+    "line": "7932"
+  },
+  {
+    "command": ":CURSor:XY:YDELta?",
+    "section": "3.8.5.10",
+    "page": "108",
+    "line": "7969"
+  },
+  {
+    "command": ":DISP:GBR?",
+    "line": "1101"
+  },
+  {
+    "command": ":DISPlay:CLEar",
+    "section": "3.9.1",
+    "page": "109",
+    "line": "8014"
+  },
+  {
+    "command": ":DISPlay:COLor",
+    "section": "3.9.9",
+    "page": "114",
+    "arguments": "<bool>",
+    "line": "8356"
+  },
+  {
+    "command": ":DISPlay:COLor?",
+    "line": "8358"
+  },
+  {
+    "command": ":DISPlay:DATA?",
+    "section": "3.9.7",
+    "page": "112"
+  },
+  {
+    "command": ":DISPlay:DATA?[<type>]",
+    "line": "8263"
+  },
+  {
+    "command": ":DISPlay:GBRightness",
+    "section": "3.9.6",
+    "page": "112",
+    "arguments": "<brightness>",
+    "line": "1049"
+  },
+  {
+    "command": ":DISPlay:GBRightness?",
+    "line": "1051"
+  },
+  {
+    "command": ":DISPlay:GRADing:TIME",
+    "section": "3.9.3",
+    "page": "110",
+    "arguments": "<time>",
+    "line": "8090"
+  },
+  {
+    "command": ":DISPlay:GRADing:TIME?",
+    "line": "8092"
+  },
+  {
+    "command": ":DISPlay:GRID",
+    "section": "3.9.5",
+    "page": "111",
+    "arguments": "<grid>",
+    "line": "8182"
+  },
+  {
+    "command": ":DISPlay:GRID?",
+    "line": "8184"
+  },
+  {
+    "command": ":DISPlay:RULers",
+    "section": "3.9.8",
+    "page": "113",
+    "arguments": "<bool>",
+    "line": "8311"
+  },
+  {
+    "command": ":DISPlay:RULers?",
+    "line": "8313"
+  },
+  {
+    "command": ":DISPlay:TYPE",
+    "section": "3.9.2",
+    "page": "109",
+    "arguments": "<type>",
+    "line": "8047"
+  },
+  {
+    "command": ":DISPlay:TYPE?",
+    "line": "8049"
+  },
+  {
+    "command": ":DISPlay:WBRightness",
+    "section": "3.9.4",
+    "page": "111",
+    "arguments": "<brightness>",
+    "line": "8149"
+  },
+  {
+    "command": ":DISPlay:WBRightness?",
+    "line": "8151"
+  },
+  {
+    "command": ":DISPlay:WHOLd",
+    "section": "3.9.10",
+    "page": "114",
+    "arguments": "<bool>",
+    "line": "8390"
+  },
+  {
+    "command": ":DISPlay:WHOLd?",
+    "line": "8392"
+  },
+  {
+    "command": ":DVM:CURRent?",
+    "section": "3.10.1",
+    "page": "115",
+    "line": "8441"
+  },
+  {
+    "command": ":DVM:ENABle",
+    "section": "3.10.2",
+    "page": "115",
+    "arguments": "<bool>",
+    "line": "8467"
+  },
+  {
+    "command": ":DVM:ENABle?",
+    "line": "8469"
+  },
+  {
+    "command": ":DVM:MODE",
+    "section": "3.10.4",
+    "page": "117",
+    "arguments": "<mode>",
+    "line": "8557"
+  },
+  {
+    "command": ":DVM:MODE?",
+    "line": "8559"
+  },
+  {
+    "command": ":DVM:SOURce",
+    "section": "3.10.3",
+    "page": "116",
+    "arguments": "<source>",
+    "line": "8512"
+  },
+  {
+    "command": ":DVM:SOURce?",
+    "line": "8514"
+  },
+  {
+    "command": ":HISTogram:ENABle",
+    "section": "3.11.1",
+    "page": "118",
+    "arguments": "<bool>",
+    "line": "8646"
+  },
+  {
+    "command": ":HISTogram:ENABle?",
+    "line": "8648"
+  },
+  {
+    "command": ":HISTogram:HEIGht",
+    "section": "3.11.4",
+    "page": "120",
+    "arguments": "<height>",
+    "line": "8768"
+  },
+  {
+    "command": ":HISTogram:HEIGht?",
+    "line": "8770"
+  },
+  {
+    "command": ":HISTogram:RANGe:BOTTom",
+    "section": "3.11.8",
+    "page": "123",
+    "arguments": "<number>",
+    "line": "8968"
+  },
+  {
+    "command": ":HISTogram:RANGe:BOTTom?",
+    "line": "8970"
+  },
+  {
+    "command": ":HISTogram:RANGe:LEFT",
+    "section": "3.11.5",
+    "page": "120",
+    "arguments": "<number>",
+    "line": "8800"
+  },
+  {
+    "command": ":HISTogram:RANGe:LEFT?",
+    "line": "8802"
+  },
+  {
+    "command": ":HISTogram:RANGe:RIGHt",
+    "section": "3.11.6",
+    "page": "121",
+    "arguments": "<number>",
+    "line": "8855"
+  },
+  {
+    "command": ":HISTogram:RANGe:RIGHt?",
+    "line": "8857"
+  },
+  {
+    "command": ":HISTogram:RANGe:TOP",
+    "section": "3.11.7",
+    "page": "122",
+    "arguments": "<number>",
+    "line": "8909"
+  },
+  {
+    "command": ":HISTogram:RANGe:TOP?",
+    "line": "8911"
+  },
+  {
+    "command": ":HISTogram:SOURce",
+    "section": "3.11.3",
+    "page": "119",
+    "arguments": "<source>",
+    "line": "8724"
+  },
+  {
+    "command": ":HISTogram:SOURce?",
+    "line": "8726"
+  },
+  {
+    "command": ":HISTogram:STATistics:RESult?",
+    "section": "3.11.9",
+    "page": "124",
+    "line": "9024"
+  },
+  {
+    "command": ":HISTogram:TYPE",
+    "section": "3.11.2",
+    "page": "119",
+    "arguments": "<type>",
+    "line": "8690"
+  },
+  {
+    "command": ":HISTogram:TYPE?",
+    "line": "8692"
+  },
+  {
+    "command": ":LA:ACTive",
+    "section": "3.13.2",
+    "page": "133",
+    "arguments": "<digital>",
+    "line": "9676"
+  },
+  {
+    "command": ":LA:ACTive?",
+    "line": "9678"
+  },
+  {
+    "command": ":LA:AUTosort",
+    "section": "3.13.3",
+    "page": "134",
+    "arguments": "<val>",
+    "line": "9730"
+  },
+  {
+    "command": ":LA:AUTosort?",
+    "line": "9732"
+  },
+  {
+    "command": ":LA:DELete",
+    "section": "3.13.4",
+    "page": "135",
+    "arguments": "<group>",
+    "line": "9779"
+  },
+  {
+    "command": ":LA:DIGital:ENABle",
+    "section": "3.13.5",
+    "page": "135",
+    "arguments": "<digital>,<bool>",
+    "line": "9811"
+  },
+  {
+    "command": ":LA:DIGital:ENABle?",
+    "arguments": "<digital>",
+    "line": "9813"
+  },
+  {
+    "command": ":LA:DIGital:LABel",
+    "section": "3.13.6",
+    "page": "136",
+    "arguments": "<digital>,<label>",
+    "line": "9858"
+  },
+  {
+    "command": ":LA:DIGital:LABel?",
+    "arguments": "<digital>",
+    "line": "9860"
+  },
+  {
+    "command": ":LA:ENABle",
+    "section": "3.13.1",
+    "page": "133",
+    "arguments": "<bool>",
+    "line": "9644"
+  },
+  {
+    "command": ":LA:ENABle?",
+    "line": "9646"
+  },
+  {
+    "command": ":LA:POD<n>:DISPlay",
+    "section": "3.13.7",
+    "page": "137",
+    "arguments": "<bool>",
+    "line": "9907"
+  },
+  {
+    "command": ":LA:POD<n>:DISPlay?",
+    "line": "9909"
+  },
+  {
+    "command": ":LA:POD<n>:THReshold",
+    "section": "3.13.8",
+    "page": "137",
+    "arguments": "<thre>",
+    "line": "9942"
+  },
+  {
+    "command": ":LA:POD<n>:THReshold?",
+    "line": "9944"
+  },
+  {
+    "command": ":LA:SIZE",
+    "section": "3.13.9",
+    "page": "138",
+    "arguments": "<size>",
+    "line": "9990"
+  },
+  {
+    "command": ":LA:SIZE?",
+    "line": "9992"
+  },
+  {
+    "command": ":LAN:APPLy",
+    "section": "3.14.15",
+    "page": "148",
+    "line": "10645"
+  },
+  {
+    "command": ":LAN:AUToip",
+    "section": "3.14.2",
+    "page": "140",
+    "arguments": "<bool>",
+    "line": "10099"
+  },
+  {
+    "command": ":LAN:AUToip?",
+    "line": "10101"
+  },
+  {
+    "command": ":LAN:DESCription",
+    "section": "3.14.14",
+    "page": "147",
+    "arguments": "<name>",
+    "line": "10602"
+  },
+  {
+    "command": ":LAN:DESCription?",
+    "line": "10604"
+  },
+  {
+    "command": ":LAN:DHCP",
+    "section": "3.14.1",
+    "page": "139",
+    "arguments": "<bool>",
+    "line": "10043"
+  },
+  {
+    "command": ":LAN:DHCP?",
+    "line": "10045"
+  },
+  {
+    "command": ":LAN:DNS",
+    "section": "3.14.4",
+    "page": "141",
+    "arguments": "<string>",
+    "line": "10186"
+  },
+  {
+    "command": ":LAN:DNS?",
+    "line": "10188"
+  },
+  {
+    "command": ":LAN:DSERver?",
+    "section": "3.14.6",
+    "page": "142",
+    "line": "10264"
+  },
+  {
+    "command": ":LAN:GATeway",
+    "section": "3.14.3",
+    "page": "140",
+    "arguments": "<string>",
+    "line": "1085"
+  },
+  {
+    "command": ":LAN:GATeway?",
+    "line": "10136"
+  },
+  {
+    "command": ":LAN:HOST:NAME",
+    "section": "3.14.13",
+    "page": "147",
+    "arguments": "<name>",
+    "line": "10569"
+  },
+  {
+    "command": ":LAN:HOST:NAME?",
+    "line": "10571"
+  },
+  {
+    "command": ":LAN:IPADdress",
+    "section": "3.14.8",
+    "page": "143",
+    "arguments": "<string>",
+    "line": "10338"
+  },
+  {
+    "command": ":LAN:IPADdress?",
+    "line": "10340"
+  },
+  {
+    "command": ":LAN:MAC?",
+    "section": "3.14.5",
+    "page": "142",
+    "line": "10238"
+  },
+  {
+    "command": ":LAN:MANual",
+    "section": "3.14.7",
+    "page": "143",
+    "arguments": "<bool>",
+    "line": "10300"
+  },
+  {
+    "command": ":LAN:MANual?",
+    "line": "10302"
+  },
+  {
+    "command": ":LAN:MDNS",
+    "section": "3.14.12",
+    "page": "146",
+    "arguments": "<bool>",
+    "line": "10526"
+  },
+  {
+    "command": ":LAN:MDNS?",
+    "line": "10528"
+  },
+  {
+    "command": ":LAN:SMASk",
+    "section": "3.14.9",
+    "page": "144",
+    "arguments": "<string>",
+    "line": "10390"
+  },
+  {
+    "command": ":LAN:SMASk?",
+    "line": "10392"
+  },
+  {
+    "command": ":LAN:STATus?",
+    "section": "3.14.10",
+    "page": "145",
+    "line": "10441"
+  },
+  {
+    "command": ":LAN:VISA?",
+    "section": "3.14.11",
+    "page": "145"
+  },
+  {
+    "command": ":LOAD:SETup",
+    "section": "3.21.20",
+    "page": "246",
+    "arguments": "<path>",
+    "line": "17284"
+  },
+  {
+    "command": ":MASK:CREate",
+    "section": "3.15.6",
+    "page": "152",
+    "line": "10907"
+  },
+  {
+    "command": ":MASK:ENABle",
+    "section": "3.15.1",
+    "page": "148",
+    "arguments": "<bool>",
+    "line": "10684"
+  },
+  {
+    "command": ":MASK:ENABle?",
+    "line": "10686"
+  },
+  {
+    "command": ":MASK:FAILed?",
+    "section": "3.15.8",
+    "page": "153",
+    "line": "10982"
+  },
+  {
+    "command": ":MASK:OPERate",
+    "section": "3.15.3",
+    "page": "150",
+    "arguments": "<oper>",
+    "line": "10785"
+  },
+  {
+    "command": ":MASK:OPERate?",
+    "line": "10787"
+  },
+  {
+    "command": ":MASK:OUTPut:ENABle",
+    "section": "3.15.11",
+    "page": "154",
+    "arguments": "<bool>",
+    "line": "11072"
+  },
+  {
+    "command": ":MASK:OUTPut:ENABle?",
+    "line": "11074"
+  },
+  {
+    "command": ":MASK:OUTPut:EVENt",
+    "section": "3.15.12",
+    "page": "155",
+    "arguments": "<item>",
+    "line": "11124"
+  },
+  {
+    "command": ":MASK:OUTPut:EVENt?",
+    "line": "11126"
+  },
+  {
+    "command": ":MASK:OUTPut:TIME",
+    "section": "3.15.13",
+    "page": "155",
+    "arguments": "<time>",
+    "line": "11156"
+  },
+  {
+    "command": ":MASK:OUTPut:TIME?",
+    "line": "11158"
+  },
+  {
+    "command": ":MASK:PASSed?",
+    "section": "3.15.9",
+    "page": "153",
+    "line": "11008"
+  },
+  {
+    "command": ":MASK:RESet",
+    "section": "3.15.7",
+    "page": "152",
+    "line": "10944"
+  },
+  {
+    "command": ":MASK:SOURce",
+    "section": "3.15.2",
+    "page": "149",
+    "arguments": "<source>",
+    "line": "10738"
+  },
+  {
+    "command": ":MASK:SOURce?",
+    "line": "10740"
+  },
+  {
+    "command": ":MASK:TOTal?",
+    "section": "3.15.10",
+    "page": "154",
+    "line": "11046"
+  },
+  {
+    "command": ":MASK:X",
+    "section": "3.15.4",
+    "page": "150",
+    "arguments": "<x>",
+    "line": "10818"
+  },
+  {
+    "command": ":MASK:X?",
+    "line": "10820"
+  },
+  {
+    "command": ":MASK:Y",
+    "section": "3.15.5",
+    "page": "151",
+    "arguments": "<y>",
+    "line": "10864"
+  },
+  {
+    "command": ":MASK:Y?",
+    "line": "10866"
+  },
+  {
+    "command": ":MATH<n>:DISPlay",
+    "section": "3.16.1",
+    "page": "159",
+    "arguments": "<bool>",
+    "line": "11405"
+  },
+  {
+    "command": ":MATH<n>:DISPlay?",
+    "line": "11407"
+  },
+  {
+    "command": ":MATH<n>:DISTance",
+    "section": "3.16.33",
+    "page": "183",
+    "arguments": "<dist>",
+    "line": "13015"
+  },
+  {
+    "command": ":MATH<n>:DISTance?",
+    "line": "13017"
+  },
+  {
+    "command": ":MATH<n>:EXPand",
+    "section": "3.16.12",
+    "page": "167",
+    "arguments": "<exp>",
+    "line": "11969"
+  },
+  {
+    "command": ":MATH<n>:EXPand?",
+    "line": "11971"
+  },
+  {
+    "command": ":MATH<n>:FFT:FREQuency:END",
+    "section": "3.16.22",
+    "page": "175",
+    "arguments": "<value>",
+    "line": "12464"
+  },
+  {
+    "command": ":MATH<n>:FFT:FREQuency:END?",
+    "line": "12466"
+  },
+  {
+    "command": ":MATH<n>:FFT:FREQuency:STARt",
+    "section": "3.16.21",
+    "page": "174",
+    "arguments": "<value>",
+    "line": "12415"
+  },
+  {
+    "command": ":MATH<n>:FFT:FREQuency:STARt?",
+    "line": "12417"
+  },
+  {
+    "command": ":MATH<n>:FFT:HCENter",
+    "section": "3.16.20",
+    "page": "173",
+    "arguments": "<cent>",
+    "line": "12365"
+  },
+  {
+    "command": ":MATH<n>:FFT:HCENter?",
+    "line": "12367"
+  },
+  {
+    "command": ":MATH<n>:FFT:HSCale",
+    "section": "3.16.19",
+    "page": "173",
+    "arguments": "<hsc>",
+    "line": "12326"
+  },
+  {
+    "command": ":MATH<n>:FFT:HSCale?",
+    "line": "12328"
+  },
+  {
+    "command": ":MATH<n>:FFT:OFFSet",
+    "section": "3.16.18",
+    "page": "172",
+    "arguments": "<offset>",
+    "line": "12271"
+  },
+  {
+    "command": ":MATH<n>:FFT:OFFSet?",
+    "line": "12273"
+  },
+  {
+    "command": ":MATH<n>:FFT:SCALe",
+    "section": "3.16.17",
+    "page": "171",
+    "arguments": "<scale>",
+    "line": "12216"
+  },
+  {
+    "command": ":MATH<n>:FFT:SCALe?",
+    "line": "12218"
+  },
+  {
+    "command": ":MATH<n>:FFT:SEARch:ENABle",
+    "section": "3.16.23",
+    "page": "175",
+    "arguments": "<bool>",
+    "line": "12503"
+  },
+  {
+    "command": ":MATH<n>:FFT:SEARch:ENABle?",
+    "line": "12505"
+  },
+  {
+    "command": ":MATH<n>:FFT:SEARch:EXCursion",
+    "section": "3.16.26",
+    "page": "177",
+    "arguments": "<excur>",
+    "line": "12634"
+  },
+  {
+    "command": ":MATH<n>:FFT:SEARch:EXCursion?",
+    "line": "12636"
+  },
+  {
+    "command": ":MATH<n>:FFT:SEARch:NUM",
+    "section": "3.16.24",
+    "page": "176",
+    "arguments": "<num>",
+    "line": "12550"
+  },
+  {
+    "command": ":MATH<n>:FFT:SEARch:NUM?",
+    "line": "12552"
+  },
+  {
+    "command": ":MATH<n>:FFT:SEARch:ORDer",
+    "section": "3.16.27",
+    "page": "178",
+    "arguments": "<order>",
+    "line": "12680"
+  },
+  {
+    "command": ":MATH<n>:FFT:SEARch:ORDer?",
+    "line": "12682"
+  },
+  {
+    "command": ":MATH<n>:FFT:SEARch:RES?",
+    "section": "3.16.28",
+    "page": "178",
+    "line": "12715"
+  },
+  {
+    "command": ":MATH<n>:FFT:SEARch:THReshold",
+    "section": "3.16.25",
+    "page": "177",
+    "arguments": "<thres>",
+    "line": "12596"
+  },
+  {
+    "command": ":MATH<n>:FFT:SEARch:THReshold?",
+    "line": "12598"
+  },
+  {
+    "command": ":MATH<n>:FFT:SOURce",
+    "section": "3.16.14",
+    "page": "169",
+    "arguments": "<source>",
+    "line": "12072"
+  },
+  {
+    "command": ":MATH<n>:FFT:SOURce?",
+    "line": "12074"
+  },
+  {
+    "command": ":MATH<n>:FFT:UNIT",
+    "section": "3.16.16",
+    "page": "170",
+    "arguments": "<unit>",
+    "line": "12169"
+  },
+  {
+    "command": ":MATH<n>:FFT:UNIT?",
+    "line": "12171"
+  },
+  {
+    "command": ":MATH<n>:FFT:WINDow",
+    "section": "3.16.15",
+    "page": "169",
+    "arguments": "<window>",
+    "line": "12109"
+  },
+  {
+    "command": ":MATH<n>:FFT:WINDow?",
+    "line": "12122"
+  },
+  {
+    "command": ":MATH<n>:FILTer:TYPE",
+    "section": "3.16.29",
+    "page": "179",
+    "arguments": "<type>",
+    "line": "12762"
+  },
+  {
+    "command": ":MATH<n>:FILTer:TYPE?",
+    "line": "12764"
+  },
+  {
+    "command": ":MATH<n>:FILTer:W1",
+    "section": "3.16.30",
+    "page": "180",
+    "arguments": "<freq1>",
+    "line": "12836"
+  },
+  {
+    "command": ":MATH<n>:FILTer:W1?",
+    "line": "12838"
+  },
+  {
+    "command": ":MATH<n>:FILTer:W2",
+    "section": "3.16.31",
+    "page": "181",
+    "arguments": "<freq2>",
+    "line": "12914"
+  },
+  {
+    "command": ":MATH<n>:FILTer:W2?",
+    "line": "12916"
+  },
+  {
+    "command": ":MATH<n>:GRID",
+    "section": "3.16.11",
+    "page": "167",
+    "arguments": "<grid>",
+    "line": "11933"
+  },
+  {
+    "command": ":MATH<n>:GRID?",
+    "line": "11935"
+  },
+  {
+    "command": ":MATH<n>:INVert",
+    "section": "3.16.9",
+    "page": "166",
+    "arguments": "<bool>",
+    "line": "11858"
+  },
+  {
+    "command": ":MATH<n>:INVert?",
+    "line": "11860"
+  },
+  {
+    "command": ":MATH<n>:LABel:SHOW",
+    "section": "3.16.39",
+    "page": "187",
+    "arguments": "<bool>",
+    "line": "13320"
+  },
+  {
+    "command": ":MATH<n>:LABel:SHOW?",
+    "line": "13322"
+  },
+  {
+    "command": ":MATH<n>:LSOurce1",
+    "section": "3.16.5",
+    "page": "163",
+    "arguments": "<source>",
+    "line": "11655"
+  },
+  {
+    "command": ":MATH<n>:LSOurce1?",
+    "line": "11657"
+  },
+  {
+    "command": ":MATH<n>:LSOurce2",
+    "section": "3.16.6",
+    "page": "163",
+    "arguments": "<source>",
+    "line": "11697"
+  },
+  {
+    "command": ":MATH<n>:LSOurce2?",
+    "line": "11699"
+  },
+  {
+    "command": ":MATH<n>:MATH<n>:WAVetype",
+    "arguments": "<type>",
+    "line": "12022"
+  },
+  {
+    "command": ":MATH<n>:OFFSet",
+    "section": "3.16.8",
+    "page": "165",
+    "arguments": "<offset>",
+    "line": "11812"
+  },
+  {
+    "command": ":MATH<n>:OFFSet?",
+    "line": "11814"
+  },
+  {
+    "command": ":MATH<n>:OPERator",
+    "section": "3.16.2",
+    "page": "160",
+    "arguments": "<opt>",
+    "line": "11451"
+  },
+  {
+    "command": ":MATH<n>:OPERator?",
+    "line": "11453"
+  },
+  {
+    "command": ":MATH<n>:RESet",
+    "section": "3.16.10",
+    "page": "166",
+    "line": "11893"
+  },
+  {
+    "command": ":MATH<n>:SCALe",
+    "section": "3.16.7",
+    "page": "164",
+    "arguments": "<scale>",
+    "line": "11755"
+  },
+  {
+    "command": ":MATH<n>:SCALe?",
+    "line": "11757"
+  },
+  {
+    "command": ":MATH<n>:SENSitivity",
+    "section": "3.16.32",
+    "page": "182",
+    "arguments": "<sens>",
+    "line": "12970"
+  },
+  {
+    "command": ":MATH<n>:SENSitivity?",
+    "line": "12972"
+  },
+  {
+    "command": ":MATH<n>:SOURce1",
+    "section": "3.16.3",
+    "page": "160",
+    "arguments": "<source>",
+    "line": "11493"
+  },
+  {
+    "command": ":MATH<n>:SOURce1?",
+    "line": "11495"
+  },
+  {
+    "command": ":MATH<n>:SOURce2",
+    "section": "3.16.4",
+    "page": "162",
+    "arguments": "<source>",
+    "line": "11583"
+  },
+  {
+    "command": ":MATH<n>:SOURce2?",
+    "line": "11585"
+  },
+  {
+    "command": ":MATH<n>:THReshold1",
+    "section": "3.16.34",
+    "page": "183",
+    "arguments": "<thre>",
+    "line": "13050"
+  },
+  {
+    "command": ":MATH<n>:THReshold1?",
+    "line": "13052"
+  },
+  {
+    "command": ":MATH<n>:THReshold2",
+    "section": "3.16.35",
+    "page": "184",
+    "arguments": "<thre>",
+    "line": "13110"
+  },
+  {
+    "command": ":MATH<n>:THReshold2?",
+    "line": "13112"
+  },
+  {
+    "command": ":MATH<n>:THReshold3",
+    "section": "3.16.36",
+    "page": "185",
+    "arguments": "<thre>",
+    "line": "13170"
+  },
+  {
+    "command": ":MATH<n>:THReshold3?",
+    "line": "13172"
+  },
+  {
+    "command": ":MATH<n>:THReshold4",
+    "section": "3.16.37",
+    "page": "186",
+    "arguments": "<thre>",
+    "line": "13231"
+  },
+  {
+    "command": ":MATH<n>:THReshold4?",
+    "line": "13233"
+  },
+  {
+    "command": ":MATH<n>:WAVetype",
+    "section": "3.16.13",
+    "page": "168"
+  },
+  {
+    "command": ":MATH<n>:WAVetype?",
+    "line": "12024"
+  },
+  {
+    "command": ":MATH<n>:WINDow:TITLe?",
+    "section": "3.16.38",
+    "page": "187",
+    "line": "13290"
+  },
+  {
+    "command": ":MEASure:AMP:MANual:BASE",
+    "section": "3.17.26",
+    "page": "212",
+    "arguments": "<val>",
+    "line": "15000"
+  },
+  {
+    "command": ":MEASure:AMP:MANual:BASE?",
+    "line": "15002"
+  },
+  {
+    "command": ":MEASure:AMP:MANual:TOP",
+    "section": "3.17.25",
+    "page": "212",
+    "arguments": "<val>",
+    "line": "14965"
+  },
+  {
+    "command": ":MEASure:AMP:MANual:TOP?",
+    "line": "14967"
+  },
+  {
+    "command": ":MEASure:AMP:TYPE",
+    "section": "3.17.24",
+    "page": "211",
+    "arguments": "<val>",
+    "line": "14921"
+  },
+  {
+    "command": ":MEASure:AMP:TYPE?",
+    "line": "14923"
+  },
+  {
+    "command": ":MEASure:AMSource",
+    "section": "3.17.4",
+    "page": "197",
+    "arguments": "<chan>",
+    "line": "13961"
+  },
+  {
+    "command": ":MEASure:AMSource?",
+    "line": "13963"
+  },
+  {
+    "command": ":MEASure:AREA",
+    "section": "3.17.19",
+    "page": "208",
+    "arguments": "<area>",
+    "line": "14712"
+  },
+  {
+    "command": ":MEASure:AREA?",
+    "line": "14714"
+  },
+  {
+    "command": ":MEASure:CATegory",
+    "section": "3.17.27",
+    "page": "213",
+    "arguments": "<val>",
+    "line": "15047"
+  },
+  {
+    "command": ":MEASure:CATegory?",
+    "line": "15049"
+  },
+  {
+    "command": ":MEASure:CLEar",
+    "section": "3.17.3",
+    "page": "196",
+    "line": "13923"
+  },
+  {
+    "command": ":MEASure:COUNter:ENABle",
+    "section": "3.17.21",
+    "page": "209",
+    "arguments": "<bool>",
+    "line": "14798"
+  },
+  {
+    "command": ":MEASure:COUNter:ENABle?",
+    "line": "14800"
+  },
+  {
+    "command": ":MEASure:COUNter:SOURce",
+    "section": "3.17.22",
+    "page": "210",
+    "arguments": "<source>",
+    "line": "14842"
+  },
+  {
+    "command": ":MEASure:COUNter:SOURce?",
+    "line": "14844"
+  },
+  {
+    "command": ":MEASure:COUNter:VALue?",
+    "section": "3.17.23",
+    "page": "211",
+    "line": "14894"
+  },
+  {
+    "command": ":MEASure:INDicator",
+    "section": "3.17.20",
+    "page": "209",
+    "arguments": "<bool>",
+    "line": "14765"
+  },
+  {
+    "command": ":MEASure:INDicator?",
+    "line": "14767"
+  },
+  {
+    "command": ":MEASure:ITEM",
+    "section": "3.17.2",
+    "page": "195"
+  },
+  {
+    "command": ":MEASure:SETup:DSA",
+    "section": "3.17.14",
+    "page": "205",
+    "arguments": "<source>",
+    "line": "14501"
+  },
+  {
+    "command": ":MEASure:SETup:DSA?",
+    "line": "14503"
+  },
+  {
+    "command": ":MEASure:SETup:DSB",
+    "section": "3.17.15",
+    "page": "206",
+    "arguments": "<source>",
+    "line": "14551"
+  },
+  {
+    "command": ":MEASure:SETup:MAX",
+    "section": "3.17.9",
+    "page": "201",
+    "arguments": "<value>",
+    "line": "14237"
+  },
+  {
+    "command": ":MEASure:SETup:MAX?",
+    "line": "14239"
+  },
+  {
+    "command": ":MEASure:SETup:MID",
+    "section": "3.17.10",
+    "page": "202",
+    "arguments": "<value>",
+    "line": "14300"
+  },
+  {
+    "command": ":MEASure:SETup:MID?",
+    "line": "14302"
+  },
+  {
+    "command": ":MEASure:SETup:MIN",
+    "section": "3.17.11",
+    "page": "203",
+    "arguments": "<value>",
+    "line": "14350"
+  },
+  {
+    "command": ":MEASure:SETup:MIN?",
+    "line": "14352"
+  },
+  {
+    "command": ":MEASure:SETup:PSA",
+    "section": "3.17.12",
+    "page": "203",
+    "arguments": "<source>",
+    "line": "14401"
+  },
+  {
+    "command": ":MEASure:SETup:PSA?",
+    "line": "14413"
+  },
+  {
+    "command": ":MEASure:SETup:PSB",
+    "section": "3.17.13",
+    "page": "204",
+    "arguments": "<source>",
+    "line": "14452"
+  },
+  {
+    "command": ":MEASure:SETup:PSB?",
+    "line": "14454"
+  },
+  {
+    "command": ":MEASure:SOURce",
+    "section": "3.17.1",
+    "page": "194",
+    "arguments": "<source>",
+    "line": "13770"
+  },
+  {
+    "command": ":MEASure:SOURce?",
+    "line": "13772"
+  },
+  {
+    "command": ":MEASure:STATistic:COUNt",
+    "section": "3.17.5",
+    "page": "197",
+    "arguments": "<val>",
+    "line": "13996"
+  },
+  {
+    "command": ":MEASure:STATistic:COUNt?",
+    "line": "13998"
+  },
+  {
+    "command": ":MEASure:STATistic:DISPlay",
+    "section": "3.17.6",
+    "page": "198",
+    "arguments": "<bool>",
+    "line": "14040"
+  },
+  {
+    "command": ":MEASure:STATistic:DISPlay?",
+    "line": "14042"
+  },
+  {
+    "command": ":MEASure:STATistic:ITEM",
+    "section": "3.17.8",
+    "page": "199"
+  },
+  {
+    "command": ":MEASure:STATistic:RESet",
+    "section": "3.17.7",
+    "page": "199",
+    "line": "14087"
+  },
+  {
+    "command": ":MEASure:THReshold:DEFault",
+    "section": "3.17.18",
+    "page": "208",
+    "line": "14684"
+  },
+  {
+    "command": ":MEASure:THReshold:SOURce",
+    "section": "3.17.16",
+    "page": "206",
+    "arguments": "<source>",
+    "line": "14591"
+  },
+  {
+    "command": ":MEASure:THReshold:SOURce?",
+    "line": "14593"
+  },
+  {
+    "command": ":MEASure:THReshold:TYPE",
+    "section": "3.17.17",
+    "page": "207",
+    "arguments": "<type>",
+    "line": "14640"
+  },
+  {
+    "command": ":MEASure:THReshold:TYPE?",
+    "line": "14642"
+  },
+  {
+    "command": ":NAVigate:ENABle",
+    "section": "3.23.1",
+    "page": "255",
+    "arguments": "<bool>",
+    "line": "17899"
+  },
+  {
+    "command": ":NAVigate:ENABle?",
+    "line": "17901"
+  },
+  {
+    "command": ":NAVigate:FRAMe:BACK",
+    "section": "3.23.19",
+    "page": "265",
+    "line": "18596"
+  },
+  {
+    "command": ":NAVigate:FRAMe:DISPlay:MODE",
+    "section": "3.23.13",
+    "page": "261",
+    "arguments": "<mode>",
+    "line": "18327"
+  },
+  {
+    "command": ":NAVigate:FRAMe:DISPlay:MODE?",
+    "line": "18329"
+  },
+  {
+    "command": ":NAVigate:FRAMe:END",
+    "section": "3.23.16",
+    "page": "264",
+    "line": "18506"
+  },
+  {
+    "command": ":NAVigate:FRAMe:END:FRAMe",
+    "section": "3.23.14",
+    "page": "263",
+    "arguments": "<frame>",
+    "line": "18417"
+  },
+  {
+    "command": ":NAVigate:FRAMe:END:FRAMe?",
+    "line": "18419"
+  },
+  {
+    "command": ":NAVigate:FRAMe:NEXT",
+    "section": "3.23.18",
+    "page": "265",
+    "line": "18570"
+  },
+  {
+    "command": ":NAVigate:FRAMe:PLAY",
+    "section": "3.23.20",
+    "page": "266",
+    "arguments": "<bool>",
+    "line": "18634"
+  },
+  {
+    "command": ":NAVigate:FRAMe:PLAY?",
+    "line": "18636"
+  },
+  {
+    "command": ":NAVigate:FRAMe:STARt",
+    "section": "3.23.17",
+    "page": "264",
+    "line": "18532"
+  },
+  {
+    "command": ":NAVigate:FRAMe:STARt:FRAMe",
+    "section": "3.23.15",
+    "page": "263",
+    "arguments": "<frame>",
+    "line": "18458"
+  },
+  {
+    "command": ":NAVigate:FRAMe:STARt:FRAMe?",
+    "line": "18460"
+  },
+  {
+    "command": ":NAVigate:MODE",
+    "section": "3.23.2",
+    "page": "256",
+    "arguments": "<mode>",
+    "line": "17942"
+  },
+  {
+    "command": ":NAVigate:MODE?",
+    "line": "17944"
+  },
+  {
+    "command": ":NAVigate:SEARch:BACK",
+    "section": "3.23.12",
+    "page": "261",
+    "line": "18301"
+  },
+  {
+    "command": ":NAVigate:SEARch:END",
+    "section": "3.23.9",
+    "page": "260",
+    "line": "18213"
+  },
+  {
+    "command": ":NAVigate:SEARch:NEXT",
+    "section": "3.23.11",
+    "page": "260",
+    "line": "18265"
+  },
+  {
+    "command": ":NAVigate:SEARch:STARt",
+    "section": "3.23.10",
+    "page": "260",
+    "line": "18239"
+  },
+  {
+    "command": ":NAVigate:TIME:BACK",
+    "section": "3.23.8",
+    "page": "259",
+    "line": "18176"
+  },
+  {
+    "command": ":NAVigate:TIME:END",
+    "section": "3.23.5",
+    "page": "258",
+    "line": "18084"
+  },
+  {
+    "command": ":NAVigate:TIME:NEXT",
+    "section": "3.23.7",
+    "page": "259",
+    "line": "18150"
+  },
+  {
+    "command": ":NAVigate:TIME:PLAY",
+    "section": "3.23.4",
+    "page": "257",
+    "arguments": "<bool>",
+    "line": "18039"
+  },
+  {
+    "command": ":NAVigate:TIME:PLAY?",
+    "line": "18041"
+  },
+  {
+    "command": ":NAVigate:TIME:SPEed",
+    "section": "3.23.3",
+    "page": "256",
+    "arguments": "<speed>",
+    "line": "17990"
+  },
+  {
+    "command": ":NAVigate:TIME:SPEed?",
+    "line": "17992"
+  },
+  {
+    "command": ":NAVigate:TIME:STARt",
+    "section": "3.23.6",
+    "page": "258",
+    "line": "18111"
+  },
+  {
+    "command": ":QUICk:OPERation",
+    "section": "3.18.1",
+    "page": "214",
+    "arguments": "<type>",
+    "line": "15096"
+  },
+  {
+    "command": ":QUICk:OPERation?",
+    "line": "15098"
+  },
+  {
+    "command": ":RECord:CURRent",
+    "section": "3.19.12",
+    "page": "221",
+    "arguments": "<value>",
+    "line": "15592"
+  },
+  {
+    "command": ":RECord:CURRent?",
+    "line": "15594"
+  },
+  {
+    "command": ":RECord:ENABle",
+    "section": "3.19.2",
+    "page": "215",
+    "arguments": "<bool>",
+    "line": "15196"
+  },
+  {
+    "command": ":RECord:ENABle?",
+    "line": "15198"
+  },
+  {
+    "command": ":RECord:FRAMes",
+    "section": "3.19.6",
+    "page": "218",
+    "arguments": "<value>",
+    "line": "15366"
+  },
+  {
+    "command": ":RECord:FRAMes?",
+    "line": "15368"
+  },
+  {
+    "command": ":RECord:PLAY",
+    "section": "3.19.21",
+    "page": "226",
+    "arguments": "<bool>",
+    "line": "15940"
+  },
+  {
+    "command": ":RECord:PLAY?",
+    "line": "15942"
+  },
+  {
+    "command": ":RECord:STARt",
+    "section": "3.19.4",
+    "page": "217",
+    "arguments": "<bool>",
+    "line": "15287"
+  },
+  {
+    "command": ":RECord:STARt?",
+    "line": "15289"
+  },
+  {
+    "command": ":RECord:WRECord:ENABle",
+    "section": "3.19.1",
+    "page": "215",
+    "arguments": "<bool>",
+    "line": "15162"
+  },
+  {
+    "command": ":RECord:WRECord:ENABle?",
+    "line": "15164"
+  },
+  {
+    "command": ":RECord:WRECord:FINTerval",
+    "section": "3.19.9",
+    "page": "219",
+    "arguments": "<interval>",
+    "line": "15467"
+  },
+  {
+    "command": ":RECord:WRECord:FINTerval?",
+    "line": "15469"
+  },
+  {
+    "command": ":RECord:WRECord:FRAMes",
+    "section": "3.19.5",
+    "page": "217",
+    "arguments": "<value>",
+    "line": "15321"
+  },
+  {
+    "command": ":RECord:WRECord:FRAMes:MAX",
+    "section": "3.19.7",
+    "page": "218",
+    "line": "15402"
+  },
+  {
+    "command": ":RECord:WRECord:FRAMes?",
+    "line": "15323"
+  },
+  {
+    "command": ":RECord:WRECord:OPERate",
+    "section": "3.19.3",
+    "page": "216",
+    "arguments": "<operate>",
+    "line": "15242"
+  },
+  {
+    "command": ":RECord:WRECord:OPERate?",
+    "line": "15244"
+  },
+  {
+    "command": ":RECord:WRECord:PROMpt",
+    "section": "3.19.10",
+    "page": "220",
+    "arguments": "<bool>",
+    "line": "15512"
+  },
+  {
+    "command": ":RECord:WRECord:PROMpt?",
+    "line": "15514"
+  },
+  {
+    "command": ":RECord:WREPlay:BACK",
+    "section": "3.19.22",
+    "page": "227",
+    "line": "15985"
+  },
+  {
+    "command": ":RECord:WREPlay:DIRection",
+    "section": "3.19.19",
+    "page": "225",
+    "arguments": "<direction>",
+    "line": "15863"
+  },
+  {
+    "command": ":RECord:WREPlay:DIRection?",
+    "line": "15865"
+  },
+  {
+    "command": ":RECord:WREPlay:FCURrent",
+    "section": "3.19.11",
+    "page": "220",
+    "arguments": "<value>",
+    "line": "15545"
+  },
+  {
+    "command": ":RECord:WREPlay:FCURrent:TIME?",
+    "section": "3.19.13",
+    "page": "222",
+    "line": "15641"
+  },
+  {
+    "command": ":RECord:WREPlay:FCURrent?",
+    "line": "15557"
+  },
+  {
+    "command": ":RECord:WREPlay:FEND",
+    "section": "3.19.15",
+    "page": "223",
+    "arguments": "<end>",
+    "line": "15713"
+  },
+  {
+    "command": ":RECord:WREPlay:FEND?",
+    "line": "15715"
+  },
+  {
+    "command": ":RECord:WREPlay:FINTerval",
+    "section": "3.19.17",
+    "page": "224",
+    "arguments": "<interval>",
+    "line": "15786"
+  },
+  {
+    "command": ":RECord:WREPlay:FINTerval?",
+    "line": "15788"
+  },
+  {
+    "command": ":RECord:WREPlay:FMAX?",
+    "section": "3.19.16",
+    "page": "223",
+    "line": "15748"
+  },
+  {
+    "command": ":RECord:WREPlay:FSTart",
+    "section": "3.19.14",
+    "page": "222",
+    "arguments": "<start>",
+    "line": "15667"
+  },
+  {
+    "command": ":RECord:WREPlay:FSTart?",
+    "line": "15669"
+  },
+  {
+    "command": ":RECord:WREPlay:MODE",
+    "section": "3.19.18",
+    "page": "224",
+    "arguments": "<mode>",
+    "line": "15819"
+  },
+  {
+    "command": ":RECord:WREPlay:MODE?",
+    "line": "15821"
+  },
+  {
+    "command": ":RECord:WREPlay:NEXT",
+    "section": "3.19.23",
+    "page": "227",
+    "line": "16012"
+  },
+  {
+    "command": ":RECord:WREPlay:OPERate",
+    "section": "3.19.20",
+    "page": "226",
+    "arguments": "<operate>",
+    "line": "15907"
+  },
+  {
+    "command": ":RECord:WREPlay:OPERate?",
+    "line": "15909"
+  },
+  {
+    "command": ":RECord:WREPlay:PLAY",
+    "section": "3.19.24",
+    "page": "228",
+    "arguments": "<val>",
+    "line": "16050"
+  },
+  {
+    "command": ":REFerence:COLor",
+    "section": "3.20.7",
+    "page": "232"
+  },
+  {
+    "command": ":REFerence:COLor?",
+    "arguments": "<ref>",
+    "line": "16345"
+  },
+  {
+    "command": ":REFerence:CURRent",
+    "section": "3.20.5",
+    "page": "231",
+    "arguments": "<ref>",
+    "line": "16274"
+  },
+  {
+    "command": ":REFerence:LABel:CONTent",
+    "section": "3.20.9",
+    "page": "233",
+    "arguments": "<ref>,<str>",
+    "line": "16422"
+  },
+  {
+    "command": ":REFerence:LABel:CONTent?",
+    "arguments": "<ref>",
+    "line": "16424"
+  },
+  {
+    "command": ":REFerence:LABel:ENABle",
+    "section": "3.20.8",
+    "page": "233",
+    "arguments": "<bool>",
+    "line": "16388"
+  },
+  {
+    "command": ":REFerence:LABel:ENABle?",
+    "line": "16390"
+  },
+  {
+    "command": ":REFerence:RESet",
+    "section": "3.20.4",
+    "page": "230",
+    "arguments": "<ref>",
+    "line": "16234"
+  },
+  {
+    "command": ":REFerence:SAVE",
+    "section": "3.20.6",
+    "page": "231",
+    "arguments": "<ref>",
+    "line": "16303"
+  },
+  {
+    "command": ":REFerence:SOURce",
+    "section": "3.20.1",
+    "page": "228",
+    "arguments": "<ref>,<chan>",
+    "line": "16089"
+  },
+  {
+    "command": ":REFerence:SOURce?",
+    "arguments": "<ref>",
+    "line": "16091"
+  },
+  {
+    "command": ":REFerence:VOFFset",
+    "section": "3.20.3",
+    "page": "230",
+    "arguments": "<ref>,<offset>",
+    "line": "16197"
+  },
+  {
+    "command": ":REFerence:VOFFset?",
+    "arguments": "<ref>",
+    "line": "16199"
+  },
+  {
+    "command": ":REFerence:VSCale",
+    "section": "3.20.2",
+    "page": "229",
+    "arguments": "<ref>,<scale>",
+    "line": "16144"
+  },
+  {
+    "command": ":REFerence:VSCale?",
+    "arguments": "<ref>",
+    "line": "16146"
+  },
+  {
+    "command": ":RUN",
+    "section": "3.1.2",
+    "page": "11",
+    "line": "1479"
+  },
+  {
+    "command": ":SAVE:IMAGe",
+    "section": "3.21.6",
+    "page": "237",
+    "arguments": "<path>",
+    "line": "16682"
+  },
+  {
+    "command": ":SAVE:IMAGe:COLor",
+    "section": "3.21.2",
+    "page": "235",
+    "arguments": "<color>",
+    "line": "16522"
+  },
+  {
+    "command": ":SAVE:IMAGe:COLor?",
+    "line": "16524"
+  },
+  {
+    "command": ":SAVE:IMAGe:DATA?",
+    "section": "3.21.5",
+    "page": "236",
+    "line": "16638"
+  },
+  {
+    "command": ":SAVE:IMAGe:FORMat",
+    "section": "3.21.3",
+    "page": "235",
+    "arguments": "<format>",
+    "line": "16556"
+  },
+  {
+    "command": ":SAVE:IMAGe:FORMat?",
+    "line": "16558"
+  },
+  {
+    "command": ":SAVE:IMAGe:HEADer",
+    "section": "3.21.4",
+    "page": "236",
+    "arguments": "<bool>",
+    "line": "16600"
+  },
+  {
+    "command": ":SAVE:IMAGe:HEADer?",
+    "line": "16602"
+  },
+  {
+    "command": ":SAVE:IMAGe:INVert",
+    "section": "3.21.1",
+    "page": "234",
+    "arguments": "<bool>",
+    "line": "16477"
+  },
+  {
+    "command": ":SAVE:IMAGe:INVert?",
+    "line": "16479"
+  },
+  {
+    "command": ":SAVE:MEMory:WAVeform",
+    "section": "3.21.9",
+    "page": "240",
+    "arguments": "<path>",
+    "line": "16856"
+  },
+  {
+    "command": ":SAVE:OVERlap",
+    "section": "3.21.11",
+    "page": "241",
+    "arguments": "<bool>",
+    "line": "16940"
+  },
+  {
+    "command": ":SAVE:OVERlap?",
+    "line": "16942"
+  },
+  {
+    "command": ":SAVE:PREFix",
+    "section": "3.21.12",
+    "page": "241",
+    "arguments": "<name>",
+    "line": "16976"
+  },
+  {
+    "command": ":SAVE:PREFix?",
+    "line": "16988"
+  },
+  {
+    "command": ":SAVE:SETup",
+    "section": "3.21.7",
+    "page": "238",
+    "arguments": "<path>",
+    "line": "16742"
+  },
+  {
+    "command": ":SAVe:SMB:AUToconnect",
+    "section": "3.21.16",
+    "page": "244",
+    "arguments": "<bool>",
+    "line": "17150"
+  },
+  {
+    "command": ":SAVe:SMB:AUToconnect?",
+    "line": "17152"
+  },
+  {
+    "command": ":SAVe:SMB:CONNect",
+    "section": "3.21.17",
+    "page": "245",
+    "line": "17196"
+  },
+  {
+    "command": ":SAVe:SMB:CONState?",
+    "section": "3.21.19",
+    "page": "245",
+    "line": "17248"
+  },
+  {
+    "command": ":SAVe:SMB:DISConnect",
+    "section": "3.21.18",
+    "page": "245",
+    "line": "17222"
+  },
+  {
+    "command": ":SAVe:SMB:PASSword",
+    "section": "3.21.15",
+    "page": "243",
+    "arguments": "<password>",
+    "line": "17104"
+  },
+  {
+    "command": ":SAVe:SMB:PASSword?",
+    "line": "17106"
+  },
+  {
+    "command": ":SAVe:SMB:SERVerpath",
+    "section": "3.21.13",
+    "page": "242",
+    "arguments": "<path>",
+    "line": "17022"
+  },
+  {
+    "command": ":SAVe:SMB:SERVerpath?",
+    "line": "17024"
+  },
+  {
+    "command": ":SAVe:SMB:USERname",
+    "section": "3.21.14",
+    "page": "243",
+    "arguments": "<name>",
+    "line": "17070"
+  },
+  {
+    "command": ":SAVe:SMB:USERname?",
+    "line": "17072"
+  },
+  {
+    "command": ":SAVE:STATus?",
+    "section": "3.21.10",
+    "page": "240",
+    "line": "16902"
+  },
+  {
+    "command": ":SAVE:WAVeform",
+    "section": "3.21.8",
+    "page": "239",
+    "arguments": "<path>",
+    "line": "16799"
+  },
+  {
+    "command": ":SEARch:COUNt?",
+    "section": "3.22.1",
+    "page": "247",
+    "line": "17332"
+  },
+  {
+    "command": ":SEARch:EDGE:SLOPe",
+    "section": "3.22.6",
+    "page": "249",
+    "arguments": "<slope>",
+    "line": "17507"
+  },
+  {
+    "command": ":SEARch:EDGE:SLOPe?",
+    "line": "17509"
+  },
+  {
+    "command": ":SEARch:EDGE:SOURce",
+    "section": "3.22.7",
+    "page": "250",
+    "arguments": "<source>",
+    "line": "17555"
+  },
+  {
+    "command": ":SEARch:EDGE:SOURce?",
+    "line": "17557"
+  },
+  {
+    "command": ":SEARch:EDGE:THReshold",
+    "section": "3.22.8",
+    "page": "251",
+    "arguments": "<thre>",
+    "line": "17600"
+  },
+  {
+    "command": ":SEARch:EDGE:THReshold?",
+    "line": "17602"
+  },
+  {
+    "command": ":SEARch:EVENt",
+    "section": "3.22.4",
+    "page": "248",
+    "arguments": "<value>",
+    "line": "17430"
+  },
+  {
+    "command": ":SEARch:EVENt?",
+    "line": "17432"
+  },
+  {
+    "command": ":SEARch:MODE",
+    "section": "3.22.3",
+    "page": "248",
+    "arguments": "<value>",
+    "line": "17396"
+  },
+  {
+    "command": ":SEARch:MODE?",
+    "line": "17398"
+  },
+  {
+    "command": ":SEARch:PULSe:LWIDth",
+    "section": "3.22.13",
+    "page": "254",
+    "arguments": "<width>",
+    "line": "17816"
+  },
+  {
+    "command": ":SEARch:PULSe:LWIDth?",
+    "line": "17818"
+  },
+  {
+    "command": ":SEARch:PULSe:POLarity",
+    "section": "3.22.9",
+    "page": "251",
+    "arguments": "<polarity>",
+    "line": "17635"
+  },
+  {
+    "command": ":SEARch:PULSe:POLarity?",
+    "line": "17637"
+  },
+  {
+    "command": ":SEARch:PULSe:QUALifier",
+    "section": "3.22.10",
+    "page": "252",
+    "arguments": "<qualifier>",
+    "line": "17680"
+  },
+  {
+    "command": ":SEARch:PULSe:QUALifier?",
+    "line": "17682"
+  },
+  {
+    "command": ":SEARch:PULSe:SOURce",
+    "section": "3.22.11",
+    "page": "253",
+    "arguments": "<source>",
+    "line": "17736"
+  },
+  {
+    "command": ":SEARch:PULSe:SOURce?",
+    "line": "17738"
+  },
+  {
+    "command": ":SEARch:PULSe:THReshold",
+    "section": "3.22.14",
+    "page": "254",
+    "arguments": "<thre>",
+    "line": "17849"
+  },
+  {
+    "command": ":SEARch:PULSe:THReshold?",
+    "line": "17851"
+  },
+  {
+    "command": ":SEARch:PULSe:UWIDth",
+    "section": "3.22.12",
+    "page": "253",
+    "arguments": "<width>",
+    "line": "17771"
+  },
+  {
+    "command": ":SEARch:PULSe:UWIDth?",
+    "line": "17773"
+  },
+  {
+    "command": ":SEARch:STATe",
+    "section": "3.22.2",
+    "page": "247",
+    "arguments": "<bool>",
+    "line": "17358"
+  },
+  {
+    "command": ":SEARch:STATe?",
+    "line": "17360"
+  },
+  {
+    "command": ":SEARch:VALue?",
+    "section": "3.22.5",
+    "page": "249",
+    "arguments": "<x>",
+    "line": "17478"
+  },
+  {
+    "command": ":SINGle",
+    "section": "3.1.4",
+    "page": "13",
+    "line": "1563"
+  },
+  {
+    "command": ":SOURce:FREQuency",
+    "section": "3.25.3",
+    "page": "276",
+    "arguments": "<freq>",
+    "line": "19337"
+  },
+  {
+    "command": ":SOURce:FREQuency?",
+    "line": "19339"
+  },
+  {
+    "command": ":SOURce:FUNCtion",
+    "section": "3.25.2",
+    "page": "276",
+    "arguments": "<wave>",
+    "line": "19302"
+  },
+  {
+    "command": ":SOURce:FUNCtion:RAMP:SYMMetry",
+    "section": "3.25.5",
+    "page": "278",
+    "arguments": "<symm>",
+    "line": "19434"
+  },
+  {
+    "command": ":SOURce:FUNCtion:RAMP:SYMMetry?",
+    "line": "19436"
+  },
+  {
+    "command": ":SOURce:FUNCtion:SQUare:DUTY",
+    "section": "3.25.6",
+    "page": "279",
+    "arguments": "<percent>",
+    "line": "19493"
+  },
+  {
+    "command": ":SOURce:FUNCtion:SQUare:DUTY?",
+    "line": "19495"
+  },
+  {
+    "command": ":SOURce:FUNCtion?",
+    "line": "19304"
+  },
+  {
+    "command": ":SOURce:MOD:AM:DEPTh",
+    "section": "3.25.11",
+    "page": "282",
+    "arguments": "<depth>",
+    "line": "19728"
+  },
+  {
+    "command": ":SOURce:MOD:AM:DEPTh?",
+    "line": "19730"
+  },
+  {
+    "command": ":SOURce:MOD:AM:INTernal:FREQuency",
+    "section": "3.25.12",
+    "page": "283",
+    "arguments": "<freq>",
+    "line": "19783"
+  },
+  {
+    "command": ":SOURce:MOD:AM:INTernal:FREQuency?",
+    "line": "19785"
+  },
+  {
+    "command": ":SOURce:MOD:AM:INTernal:FUNCtion",
+    "section": "3.25.13",
+    "page": "283",
+    "arguments": "<function>",
+    "line": "19819"
+  },
+  {
+    "command": ":SOURce:MOD:AM:INTernal:FUNCtion?",
+    "line": "19830"
+  },
+  {
+    "command": ":SOURce:MOD:FM:DEViation",
+    "section": "3.25.14",
+    "page": "284",
+    "arguments": "<deviation>",
+    "line": "19873"
+  },
+  {
+    "command": ":SOURce:MOD:FM:DEViation?",
+    "line": "19875"
+  },
+  {
+    "command": ":SOURce:MOD:FM:INTernal:FREQuency",
+    "section": "3.25.15",
+    "page": "285",
+    "arguments": "<freq>",
+    "line": "19930"
+  },
+  {
+    "command": ":SOURce:MOD:FM:INTernal:FREQuency?",
+    "line": "19932"
+  },
+  {
+    "command": ":SOURce:MOD:FM:INTernal:FUNCtion",
+    "section": "3.25.16",
+    "page": "286",
+    "arguments": "<function>",
+    "line": "19978"
+  },
+  {
+    "command": ":SOURce:MOD:FM:INTernal:FUNCtion?",
+    "line": "19980"
+  },
+  {
+    "command": ":SOURce:MOD:PM:DEViation",
+    "section": "3.25.17",
+    "page": "286",
+    "arguments": "<deviation>",
+    "line": "20023"
+  },
+  {
+    "command": ":SOURce:MOD:PM:DEViation?",
+    "line": "20036"
+  },
+  {
+    "command": ":SOURce:MOD:PM:INTernal:FREQuency",
+    "section": "3.25.18",
+    "page": "287",
+    "arguments": "<freq>",
+    "line": "20069"
+  },
+  {
+    "command": ":SOURce:MOD:PM:INTernal:FREQuency?",
+    "line": "20071"
+  },
+  {
+    "command": ":SOURce:MOD:PM:INTernal:FUNCtion",
+    "section": "3.25.19",
+    "page": "288",
+    "arguments": "<function>",
+    "line": "20116"
+  },
+  {
+    "command": ":SOURce:MOD:PM:INTernal:FUNCtion?",
+    "line": "20118"
+  },
+  {
+    "command": ":SOURce:MOD:STATe",
+    "section": "3.25.9",
+    "page": "281",
+    "arguments": "<bool>",
+    "line": "19642"
+  },
+  {
+    "command": ":SOURce:MOD:STATe?",
+    "line": "19644"
+  },
+  {
+    "command": ":SOURce:MOD:TYPe",
+    "section": "3.25.10",
+    "page": "281",
+    "arguments": "<type>",
+    "line": "19674"
+  },
+  {
+    "command": ":SOURce:MOD:TYPe?",
+    "line": "19676"
+  },
+  {
+    "command": ":SOURce:OUTPut:STATe",
+    "section": "3.25.1",
+    "page": "275",
+    "arguments": "<bool>",
+    "line": "19261"
+  },
+  {
+    "command": ":SOURce:OUTPut:STATe?",
+    "line": "19263"
+  },
+  {
+    "command": ":SOURce:PHASe",
+    "section": "3.25.4",
+    "page": "277",
+    "arguments": "<phase>",
+    "line": "19390"
+  },
+  {
+    "command": ":SOURce:PHASe?",
+    "line": "19392"
+  },
+  {
+    "command": ":SOURce:VOLTage:AMPLitude",
+    "section": "3.25.7",
+    "page": "279",
+    "arguments": "<amp>",
+    "line": "19531"
+  },
+  {
+    "command": ":SOURce:VOLTage:OFFSet",
+    "section": "3.25.8",
+    "page": "280",
+    "arguments": "<offset>",
+    "line": "19580"
+  },
+  {
+    "command": ":SOURce:VOLTage:OFFSet?",
+    "line": "19582"
+  },
+  {
+    "command": ":STOP",
+    "section": "3.1.3",
+    "page": "12",
+    "line": "1522"
+  },
+  {
+    "command": ":SYSTem:AOUTput",
+    "section": "3.24.1",
+    "page": "267",
+    "arguments": "<auxoutput>",
+    "line": "18685"
+  },
+  {
+    "command": ":SYSTem:AOUTput?",
+    "line": "18687"
+  },
+  {
+    "command": ":SYSTem:AUToscale",
+    "section": "3.24.11",
+    "page": "272",
+    "arguments": "<bool>",
+    "line": "19070"
+  },
+  {
+    "command": ":SYSTem:AUToscale?",
+    "line": "19072"
+  },
+  {
+    "command": ":SYSTem:BEEPer",
+    "section": "3.24.2",
+    "page": "267",
+    "arguments": "<bool>",
+    "line": "1017"
+  },
+  {
+    "command": ":SYSTem:BEEPer?",
+    "line": "1019"
+  },
+  {
+    "command": ":SYSTem:DGSTatus?",
+    "section": "3.24.14",
+    "page": "274",
+    "line": "19183"
+  },
+  {
+    "command": ":SYSTem:ERRor[:NEXT]?",
+    "section": "3.24.3",
+    "page": "268",
+    "line": "18766"
+  },
+  {
+    "command": ":SYSTem:GAMount?",
+    "section": "3.24.12",
+    "page": "273",
+    "line": "19119"
+  },
+  {
+    "command": ":SYSTem:KEYBOARDCheck?",
+    "section": "3.24.15",
+    "page": "275",
+    "line": "19221"
+  },
+  {
+    "command": ":SYSTem:LOCKed",
+    "section": "3.24.9",
+    "page": "271",
+    "arguments": "<bool>",
+    "line": "18996"
+  },
+  {
+    "command": ":SYSTem:LOCKed?",
+    "line": "18998"
+  },
+  {
+    "command": ":SYSTem:MODules?",
+    "section": "3.24.10",
+    "page": "272",
+    "line": "19042"
+  },
+  {
+    "command": ":SYSTem:PON",
+    "section": "3.24.4",
+    "page": "268",
+    "arguments": "<power_on>",
+    "line": "18794"
+  },
+  {
+    "command": ":SYSTem:PON?",
+    "line": "18796"
+  },
+  {
+    "command": ":SYSTem:PSTatus",
+    "section": "3.24.5",
+    "page": "269",
+    "arguments": "<sat>",
+    "line": "1027"
+  },
+  {
+    "command": ":SYSTem:PSTatus?",
+    "line": "1029"
+  },
+  {
+    "command": ":SYSTem:RAMount?",
+    "section": "3.24.6",
+    "page": "270",
+    "line": "18887"
+  },
+  {
+    "command": ":SYSTem:RESet",
+    "section": "3.24.7",
+    "page": "270",
+    "line": "18913"
+  },
+  {
+    "command": ":SYSTem:SETup",
+    "section": "3.24.8",
+    "page": "270",
+    "arguments": "<setup_data>",
+    "line": "18939"
+  },
+  {
+    "command": ":SYSTem:SETup?",
+    "line": "18950"
+  },
+  {
+    "command": ":SYSTem:VERSion?",
+    "section": "3.24.13",
+    "page": "274",
+    "line": "19157"
+  },
+  {
+    "command": ":TFORce",
+    "section": "3.1.5",
+    "page": "13",
+    "line": "1603"
+  },
+  {
+    "command": ":TIMebase:DELay:ENABle",
+    "section": "3.26.1",
+    "page": "289",
+    "arguments": "<bool>",
+    "line": "20213"
+  },
+  {
+    "command": ":TIMebase:DELay:ENABle?",
+    "line": "20215"
+  },
+  {
+    "command": ":TIMebase:DELay:OFFSet",
+    "section": "3.26.2",
+    "page": "290",
+    "arguments": "<offset>",
+    "line": "20257"
+  },
+  {
+    "command": ":TIMebase:DELay:OFFSet?",
+    "line": "20259"
+  },
+  {
+    "command": ":TIMebase:DELay:SCALe",
+    "section": "3.26.3",
+    "page": "291",
+    "arguments": "<scale>",
+    "line": "20312"
+  },
+  {
+    "command": ":TIMebase:DELay:SCALe?",
+    "line": "20314"
+  },
+  {
+    "command": ":TIMebase:HOTKeys",
+    "section": "3.26.10",
+    "page": "296",
+    "arguments": "<action>",
+    "line": "20660"
+  },
+  {
+    "command": ":TIMebase:HREFerence:MODE",
+    "section": "3.26.7",
+    "page": "294",
+    "arguments": "<href>",
+    "line": "20517"
+  },
+  {
+    "command": ":TIMebase:HREFerence:MODE?",
+    "line": "20519"
+  },
+  {
+    "command": ":TIMebase:HREFerence:POSition",
+    "section": "3.26.8",
+    "page": "295",
+    "arguments": "<pos>",
+    "line": "20579"
+  },
+  {
+    "command": ":TIMebase:HREFerence:POSition?",
+    "line": "20581"
+  },
+  {
+    "command": ":TIMebase:MODE",
+    "section": "3.26.6",
+    "page": "293",
+    "arguments": "<mode>",
+    "line": "20460"
+  },
+  {
+    "command": ":TIMebase:MODE?",
+    "line": "20462"
+  },
+  {
+    "command": ":TIMebase:ROLL",
+    "section": "3.26.11",
+    "page": "296",
+    "arguments": "<value>",
+    "line": "20693"
+  },
+  {
+    "command": ":TIMebase:ROLL?",
+    "line": "20695"
+  },
+  {
+    "command": ":TIMebase:VERNier",
+    "section": "3.26.9",
+    "page": "295",
+    "arguments": "<bool>",
+    "line": "20615"
+  },
+  {
+    "command": ":TIMebase:VERNier?",
+    "line": "20617"
+  },
+  {
+    "command": ":TIMebase:XY:ENABle",
+    "section": "3.26.12",
+    "page": "297",
+    "arguments": "<bool>",
+    "line": "20741"
+  },
+  {
+    "command": ":TIMebase:XY:ENABle?",
+    "line": "20743"
+  },
+  {
+    "command": ":TIMebase:XY:GRID",
+    "section": "3.26.16",
+    "page": "299",
+    "arguments": "<grid>",
+    "line": "20899"
+  },
+  {
+    "command": ":TIMebase:XY:GRID?",
+    "line": "20901"
+  },
+  {
+    "command": ":TIMebase:XY:X",
+    "section": "3.26.13",
+    "page": "298",
+    "arguments": "<s>",
+    "line": "20781"
+  },
+  {
+    "command": ":TIMebase:XY:X?",
+    "line": "20783"
+  },
+  {
+    "command": ":TIMebase:XY:Y",
+    "section": "3.26.14",
+    "page": "298",
+    "arguments": "<s>",
+    "line": "20817"
+  },
+  {
+    "command": ":TIMebase:XY:Y?",
+    "line": "20819"
+  },
+  {
+    "command": ":TIMebase:XY:Z",
+    "section": "3.26.15",
+    "page": "299",
+    "arguments": "<s>",
+    "line": "20864"
+  },
+  {
+    "command": ":TIMebase:XY:Z?",
+    "line": "20866"
+  },
+  {
+    "command": ":TIMebase[:MAIN]:SCALe",
+    "section": "3.26.5",
+    "page": "292",
+    "arguments": "<scale>",
+    "line": "20415"
+  },
+  {
+    "command": ":TIMebase[:MAIN]:SCALe?",
+    "line": "20417"
+  },
+  {
+    "command": ":TIMebase[:MAIN][:OFFSet]",
+    "section": "3.26.4",
+    "page": "291",
+    "arguments": "<offset>",
+    "line": "20352"
+  },
+  {
+    "command": ":TIMebase[:MAIN][:OFFSet]?",
+    "line": "20354"
+  },
+  {
+    "command": ":TRIGger:CAN",
+    "section": "3.27.23",
+    "page": "384"
+  },
+  {
+    "command": ":TRIGger:CAN:BAUD",
+    "section": "3.27.23.1",
+    "page": "385",
+    "arguments": "<baud>",
+    "line": "26704"
+  },
+  {
+    "command": ":TRIGger:CAN:BAUD?",
+    "line": "26706"
+  },
+  {
+    "command": ":TRIGger:CAN:CODE",
+    "section": "3.27.23.11",
+    "page": "392",
+    "arguments": "<code>",
+    "line": "27228"
+  },
+  {
+    "command": ":TRIGger:CAN:CODE?",
+    "line": "27239"
+  },
+  {
+    "command": ":TRIGger:CAN:CURRbit",
+    "section": "3.27.23.10",
+    "page": "392",
+    "arguments": "<currbit>",
+    "line": "27193"
+  },
+  {
+    "command": ":TRIGger:CAN:CURRbit?",
+    "line": "27195"
+  },
+  {
+    "command": ":TRIGger:CAN:DATA",
+    "section": "3.27.23.9",
+    "page": "391",
+    "arguments": "<data>",
+    "line": "27127"
+  },
+  {
+    "command": ":TRIGger:CAN:DATA?",
+    "line": "27129"
+  },
+  {
+    "command": ":TRIGger:CAN:DEFine",
+    "section": "3.27.23.7",
+    "page": "390",
+    "arguments": "<type>",
+    "line": "27042"
+  },
+  {
+    "command": ":TRIGger:CAN:DEFine?",
+    "line": "27044"
+  },
+  {
+    "command": ":TRIGger:CAN:DWIDth",
+    "section": "3.27.23.8",
+    "page": "390",
+    "arguments": "<data>",
+    "line": "27081"
+  },
+  {
+    "command": ":TRIGger:CAN:DWIDth?",
+    "line": "27083"
+  },
+  {
+    "command": ":TRIGger:CAN:EXTended",
+    "section": "3.27.23.6",
+    "page": "389",
+    "arguments": "<bool>",
+    "line": "26991"
+  },
+  {
+    "command": ":TRIGger:CAN:EXTended?",
+    "line": "26993"
+  },
+  {
+    "command": ":TRIGger:CAN:LEVel",
+    "section": "3.27.23.12",
+    "page": "393",
+    "arguments": "<level>",
+    "line": "27272"
+  },
+  {
+    "command": ":TRIGger:CAN:LEVel?",
+    "line": "27274"
+  },
+  {
+    "command": ":TRIGger:CAN:SOURce",
+    "section": "3.27.23.2",
+    "page": "385",
+    "arguments": "<source>",
+    "line": "26737"
+  },
+  {
+    "command": ":TRIGger:CAN:SOURce?",
+    "line": "26739"
+  },
+  {
+    "command": ":TRIGger:CAN:SPOint",
+    "section": "3.27.23.5",
+    "page": "388",
+    "arguments": "<spoint>",
+    "line": "26945"
+  },
+  {
+    "command": ":TRIGger:CAN:SPOint?",
+    "line": "26947"
+  },
+  {
+    "command": ":TRIGger:CAN:STYPe",
+    "section": "3.27.23.3",
+    "page": "386",
+    "arguments": "<stype>",
+    "line": "26784"
+  },
+  {
+    "command": ":TRIGger:CAN:STYPe?",
+    "line": "26786"
+  },
+  {
+    "command": ":TRIGger:CAN:WHEN",
+    "section": "3.27.23.4",
+    "page": "387",
+    "arguments": "<cond>",
+    "line": "26841"
+  },
+  {
+    "command": ":TRIGger:CAN:WHEN?",
+    "line": "26843"
+  },
+  {
+    "command": ":TRIGger:COUPling",
+    "section": "3.27.2",
+    "page": "301",
+    "arguments": "<couple>",
+    "line": "20999"
+  },
+  {
+    "command": ":TRIGger:COUPling?",
+    "line": "21001"
+  },
+  {
+    "command": ":TRIGger:DELay",
+    "section": "3.27.17",
+    "page": "342"
+  },
+  {
+    "command": ":TRIGger:DELay:ALEVel",
+    "section": "3.27.17.8",
+    "page": "348",
+    "arguments": "<level>",
+    "line": "24200"
+  },
+  {
+    "command": ":TRIGger:DELay:ALEVel?",
+    "line": "24202"
+  },
+  {
+    "command": ":TRIGger:DELay:ASLop",
+    "section": "3.27.17.2",
+    "page": "343",
+    "arguments": "<slope>",
+    "line": "23908"
+  },
+  {
+    "command": ":TRIGger:DELay:ASLop?",
+    "line": "23910"
+  },
+  {
+    "command": ":TRIGger:DELay:BLEVel",
+    "section": "3.27.17.9",
+    "page": "348",
+    "arguments": "<level>",
+    "line": "24237"
+  },
+  {
+    "command": ":TRIGger:DELay:BLEVel?",
+    "line": "24239"
+  },
+  {
+    "command": ":TRIGger:DELay:BSLop",
+    "section": "3.27.17.4",
+    "page": "345",
+    "arguments": "<slope>",
+    "line": "24002"
+  },
+  {
+    "command": ":TRIGger:DELay:BSLop?",
+    "line": "24004"
+  },
+  {
+    "command": ":TRIGger:DELay:SA",
+    "section": "3.27.17.1",
+    "page": "343",
+    "arguments": "<source>",
+    "line": "23870"
+  },
+  {
+    "command": ":TRIGger:DELay:SA?",
+    "line": "23872"
+  },
+  {
+    "command": ":TRIGger:DELay:SB",
+    "section": "3.27.17.3",
+    "page": "344",
+    "arguments": "<source>",
+    "line": "23952"
+  },
+  {
+    "command": ":TRIGger:DELay:SB?",
+    "line": "23954"
+  },
+  {
+    "command": ":TRIGger:DELay:TLOWer",
+    "section": "3.27.17.7",
+    "page": "347",
+    "arguments": "<time>",
+    "line": "24148"
+  },
+  {
+    "command": ":TRIGger:DELay:TLOWer?",
+    "line": "24150"
+  },
+  {
+    "command": ":TRIGger:DELay:TUPPer",
+    "section": "3.27.17.6",
+    "page": "346",
+    "arguments": "<time>",
+    "line": "24096"
+  },
+  {
+    "command": ":TRIGger:DELay:TUPPer?",
+    "line": "24098"
+  },
+  {
+    "command": ":TRIGger:DELay:TYPE",
+    "section": "3.27.17.5",
+    "page": "345",
+    "arguments": "<type>",
+    "line": "24035"
+  },
+  {
+    "command": ":TRIGger:DELay:TYPE?",
+    "line": "24037"
+  },
+  {
+    "command": ":TRIGger:DURation",
+    "section": "3.27.13",
+    "page": "325"
+  },
+  {
+    "command": ":TRIGger:DURation:LEVel",
+    "section": "3.27.13.6",
+    "page": "330",
+    "arguments": "<source>,<level>",
+    "line": "22970"
+  },
+  {
+    "command": ":TRIGger:DURation:LEVel?<source>",
+    "line": "22972"
+  },
+  {
+    "command": ":TRIGger:DURation:SOURce",
+    "section": "3.27.13.1",
+    "page": "326",
+    "arguments": "<source>",
+    "line": "22701"
+  },
+  {
+    "command": ":TRIGger:DURation:SOURce?",
+    "line": "22703"
+  },
+  {
+    "command": ":TRIGger:DURation:TLOWer",
+    "section": "3.27.13.5",
+    "page": "329",
+    "arguments": "<time>",
+    "line": "22916"
+  },
+  {
+    "command": ":TRIGger:DURation:TLOWer?",
+    "line": "22918"
+  },
+  {
+    "command": ":TRIGger:DURation:TUPPer",
+    "section": "3.27.13.4",
+    "page": "328",
+    "arguments": "<time>",
+    "line": "22862"
+  },
+  {
+    "command": ":TRIGger:DURation:TUPPer?",
+    "line": "22864"
+  },
+  {
+    "command": ":TRIGger:DURation:TYPE",
+    "section": "3.27.13.2",
+    "page": "326"
+  },
+  {
+    "command": ":TRIGger:DURation:TYPE?",
+    "line": "22741"
+  },
+  {
+    "command": ":TRIGger:DURation:WHEN",
+    "section": "3.27.13.3",
+    "page": "327",
+    "arguments": "<when>",
+    "line": "22804"
+  },
+  {
+    "command": ":TRIGger:DURation:WHEN?",
+    "line": "22806"
+  },
+  {
+    "command": ":TRIGger:EDGE",
+    "section": "3.27.8",
+    "page": "305"
+  },
+  {
+    "command": ":TRIGger:EDGE:LEVel",
+    "section": "3.27.8.3",
+    "page": "306",
+    "arguments": "<level>",
+    "line": "21361"
+  },
+  {
+    "command": ":TRIGger:EDGE:LEVel?",
+    "line": "21363"
+  },
+  {
+    "command": ":TRIGger:EDGE:SLOPe",
+    "section": "3.27.8.2",
+    "page": "306",
+    "arguments": "<slope>",
+    "line": "21325"
+  },
+  {
+    "command": ":TRIGger:EDGE:SLOPe?",
+    "line": "21327"
+  },
+  {
+    "command": ":TRIGger:EDGE:SOURce",
+    "section": "3.27.8.1",
+    "page": "305",
+    "arguments": "<source>",
+    "line": "21275"
+  },
+  {
+    "command": ":TRIGger:EDGE:SOURce?",
+    "line": "21277"
+  },
+  {
+    "command": ":TRIGger:HOLDoff",
+    "section": "3.27.5",
+    "page": "303",
+    "arguments": "<value>",
+    "line": "21137"
+  },
+  {
+    "command": ":TRIGger:HOLDoff?",
+    "line": "21139"
+  },
+  {
+    "command": ":TRIGger:IIC",
+    "section": "3.27.21",
+    "page": "365"
+  },
+  {
+    "command": ":TRIGger:IIC:ADDRess",
+    "section": "3.27.21.7",
+    "page": "370",
+    "arguments": "<address>",
+    "line": "25682"
+  },
+  {
+    "command": ":TRIGger:IIC:ADDRess?",
+    "line": "25684"
+  },
+  {
+    "command": ":TRIGger:IIC:AWIDth",
+    "section": "3.27.21.6",
+    "page": "369",
+    "arguments": "<bits>",
+    "line": "25637"
+  },
+  {
+    "command": ":TRIGger:IIC:AWIDth?",
+    "line": "25639"
+  },
+  {
+    "command": ":TRIGger:IIC:CLEVel",
+    "section": "3.27.21.2",
+    "page": "366",
+    "arguments": "<level>",
+    "line": "25428"
+  },
+  {
+    "command": ":TRIGger:IIC:CLEVel?",
+    "line": "25430"
+  },
+  {
+    "command": ":TRIGger:IIC:CODE",
+    "section": "3.27.21.12",
+    "page": "373",
+    "arguments": "<code>",
+    "line": "25890"
+  },
+  {
+    "command": ":TRIGger:IIC:CODE?",
+    "line": "25892"
+  },
+  {
+    "command": ":TRIGger:IIC:CURRbit",
+    "section": "3.27.21.11",
+    "page": "372",
+    "arguments": "<currbit>",
+    "line": "25843"
+  },
+  {
+    "command": ":TRIGger:IIC:CURRbit?",
+    "line": "25845"
+  },
+  {
+    "command": ":TRIGger:IIC:DATA",
+    "section": "3.27.21.10",
+    "page": "371",
+    "arguments": "<data>",
+    "line": "25795"
+  },
+  {
+    "command": ":TRIGger:IIC:DATA?",
+    "line": "25797"
+  },
+  {
+    "command": ":TRIGger:IIC:DBYTes",
+    "section": "3.27.21.9",
+    "page": "371",
+    "arguments": "<bytes>",
+    "line": "25761"
+  },
+  {
+    "command": ":TRIGger:IIC:DBYTes?",
+    "line": "25763"
+  },
+  {
+    "command": ":TRIGger:IIC:DIRection",
+    "section": "3.27.21.8",
+    "page": "370",
+    "arguments": "<direction>",
+    "line": "25716"
+  },
+  {
+    "command": ":TRIGger:IIC:DIRection?",
+    "line": "25718"
+  },
+  {
+    "command": ":TRIGger:IIC:DLEVel",
+    "section": "3.27.21.4",
+    "page": "367",
+    "arguments": "<level>",
+    "line": "25514"
+  },
+  {
+    "command": ":TRIGger:IIC:DLEVel?",
+    "line": "25516"
+  },
+  {
+    "command": ":TRIGger:IIC:SCL",
+    "section": "3.27.21.1",
+    "page": "365",
+    "arguments": "<source>",
+    "line": "25377"
+  },
+  {
+    "command": ":TRIGger:IIC:SCL?",
+    "line": "25379"
+  },
+  {
+    "command": ":TRIGger:IIC:SDA",
+    "section": "3.27.21.3",
+    "page": "367",
+    "arguments": "<source>",
+    "line": "25477"
+  },
+  {
+    "command": ":TRIGger:IIC:SDA?",
+    "line": "25479"
+  },
+  {
+    "command": ":TRIGger:IIC:WHEN",
+    "section": "3.27.21.5",
+    "page": "368",
+    "arguments": "<when>",
+    "line": "25564"
+  },
+  {
+    "command": ":TRIGger:IIC:WHEN?",
+    "line": "25566"
+  },
+  {
+    "command": ":TRIGger:LIN",
+    "section": "3.27.24",
+    "page": "394"
+  },
+  {
+    "command": ":TRIGger:LIN:BAUD",
+    "section": "3.27.24.4",
+    "page": "396",
+    "arguments": "<baud>",
+    "line": "27473"
+  },
+  {
+    "command": ":TRIGger:LIN:BAUD?",
+    "line": "27475"
+  },
+  {
+    "command": ":TRIGger:LIN:CODE",
+    "section": "3.27.24.11",
+    "page": "400",
+    "arguments": "<code>",
+    "line": "27776"
+  },
+  {
+    "command": ":TRIGger:LIN:CODE?",
+    "line": "27778"
+  },
+  {
+    "command": ":TRIGger:LIN:CURRbit",
+    "section": "3.27.24.10",
+    "page": "400",
+    "arguments": "<currbit>",
+    "line": "27741"
+  },
+  {
+    "command": ":TRIGger:LIN:CURRbit?",
+    "line": "27743"
+  },
+  {
+    "command": ":TRIGger:LIN:DATA",
+    "section": "3.27.24.9",
+    "page": "399",
+    "arguments": "<data>",
+    "line": "27695"
+  },
+  {
+    "command": ":TRIGger:LIN:DATA?",
+    "line": "27697"
+  },
+  {
+    "command": ":TRIGger:LIN:ERRor",
+    "section": "3.27.24.7",
+    "page": "398",
+    "arguments": "<value>",
+    "line": "27613"
+  },
+  {
+    "command": ":TRIGger:LIN:ERRor?",
+    "line": "27615"
+  },
+  {
+    "command": ":TRIGger:LIN:ID",
+    "section": "3.27.24.8",
+    "page": "399",
+    "arguments": "<id>",
+    "line": "27662"
+  },
+  {
+    "command": ":TRIGger:LIN:ID?",
+    "line": "27664"
+  },
+  {
+    "command": ":TRIGger:LIN:LEVel",
+    "section": "3.27.24.2",
+    "page": "395",
+    "arguments": "<level>",
+    "line": "27390"
+  },
+  {
+    "command": ":TRIGger:LIN:LEVel?",
+    "line": "27392"
+  },
+  {
+    "command": ":TRIGger:LIN:SAMPlepoint",
+    "section": "3.27.24.5",
+    "page": "397",
+    "arguments": "<value>",
+    "line": "27519"
+  },
+  {
+    "command": ":TRIGger:LIN:SAMPlepoint?",
+    "line": "27521"
+  },
+  {
+    "command": ":TRIGger:LIN:SOURce",
+    "section": "3.27.24.1",
+    "page": "394",
+    "arguments": "<source>",
+    "line": "27342"
+  },
+  {
+    "command": ":TRIGger:LIN:SOURce?",
+    "line": "27344"
+  },
+  {
+    "command": ":TRIGger:LIN:STANdard",
+    "section": "3.27.24.3",
+    "page": "395",
+    "arguments": "<std>",
+    "line": "27428"
+  },
+  {
+    "command": ":TRIGger:LIN:STANdard?",
+    "line": "27430"
+  },
+  {
+    "command": ":TRIGger:LIN:WHEN",
+    "section": "3.27.24.6",
+    "page": "397",
+    "arguments": "<when>",
+    "line": "27553"
+  },
+  {
+    "command": ":TRIGger:LIN:WHEN?",
+    "line": "27555"
+  },
+  {
+    "command": ":TRIGger:MODE",
+    "section": "3.27.1",
+    "page": "300",
+    "arguments": "<mode>",
+    "line": "20950"
+  },
+  {
+    "command": ":TRIGger:MODE?",
+    "line": "20952"
+  },
+  {
+    "command": ":TRIGger:NEDGe",
+    "section": "3.27.19",
+    "page": "355"
+  },
+  {
+    "command": ":TRIGger:NEDGe:EDGE",
+    "section": "3.27.19.4",
+    "page": "358",
+    "arguments": "<edge>",
+    "line": "24881"
+  },
+  {
+    "command": ":TRIGger:NEDGe:EDGE?",
+    "line": "24883"
+  },
+  {
+    "command": ":TRIGger:NEDGe:IDLE",
+    "section": "3.27.19.3",
+    "page": "357",
+    "arguments": "<time>",
+    "line": "24838"
+  },
+  {
+    "command": ":TRIGger:NEDGe:IDLE?",
+    "line": "24840"
+  },
+  {
+    "command": ":TRIGger:NEDGe:LEVel",
+    "section": "3.27.19.5",
+    "page": "358",
+    "arguments": "<level>",
+    "line": "24913"
+  },
+  {
+    "command": ":TRIGger:NEDGe:LEVel?",
+    "line": "24915"
+  },
+  {
+    "command": ":TRIGger:NEDGe:SLOPe",
+    "section": "3.27.19.2",
+    "page": "357",
+    "arguments": "<slope>",
+    "line": "24799"
+  },
+  {
+    "command": ":TRIGger:NEDGe:SLOPe?",
+    "line": "24801"
+  },
+  {
+    "command": ":TRIGger:NEDGe:SOURce",
+    "section": "3.27.19.1",
+    "page": "356",
+    "arguments": "<source>",
+    "line": "24749"
+  },
+  {
+    "command": ":TRIGger:NEDGe:SOURce?",
+    "line": "24751"
+  },
+  {
+    "command": ":TRIGger:NREJect",
+    "section": "3.27.6",
+    "page": "304",
+    "arguments": "<bool>",
+    "line": "21196"
+  },
+  {
+    "command": ":TRIGger:NREJect?",
+    "line": "21198"
+  },
+  {
+    "command": ":TRIGger:PATTern",
+    "section": "3.27.12",
+    "page": "322"
+  },
+  {
+    "command": ":TRIGger:PATTern:LEVel",
+    "section": "3.27.12.3",
+    "page": "324",
+    "arguments": "<source>,<level>",
+    "line": "22597"
+  },
+  {
+    "command": ":TRIGger:PATTern:LEVel?",
+    "arguments": "<source>",
+    "line": "22599"
+  },
+  {
+    "command": ":TRIGger:PATTern:PATTern",
+    "section": "3.27.12.1",
+    "page": "322"
+  },
+  {
+    "command": ":TRIGger:PATTern:PATTern?",
+    "line": "22483"
+  },
+  {
+    "command": ":TRIGger:PATTern:SOURce",
+    "section": "3.27.12.2",
+    "page": "323",
+    "arguments": "<source>",
+    "line": "22550"
+  },
+  {
+    "command": ":TRIGger:PATTern:SOURce?",
+    "line": "22561"
+  },
+  {
+    "command": ":TRIGger:POSition?",
+    "section": "3.27.7",
+    "page": "304",
+    "line": "21230"
+  },
+  {
+    "command": ":TRIGger:PULSe",
+    "section": "3.27.9",
+    "page": "307"
+  },
+  {
+    "command": ":TRIGger:PULSe:LEVel",
+    "section": "3.27.9.6",
+    "page": "311",
+    "arguments": "<level>",
+    "line": "21683"
+  },
+  {
+    "command": ":TRIGger:PULSe:LEVel?",
+    "line": "21685"
+  },
+  {
+    "command": ":TRIGger:PULSe:LWIDth",
+    "section": "3.27.9.5",
+    "page": "310",
+    "arguments": "<width>",
+    "line": "21633"
+  },
+  {
+    "command": ":TRIGger:PULSe:LWIDth?",
+    "line": "21635"
+  },
+  {
+    "command": ":TRIGger:PULSe:POLarity",
+    "section": "3.27.9.2",
+    "page": "308",
+    "arguments": "<polarity>",
+    "line": "21492"
+  },
+  {
+    "command": ":TRIGger:PULSe:POLarity?",
+    "line": "21494"
+  },
+  {
+    "command": ":TRIGger:PULSe:SOURce",
+    "section": "3.27.9.1",
+    "page": "307",
+    "arguments": "<source>",
+    "line": "21443"
+  },
+  {
+    "command": ":TRIGger:PULSe:SOURce?",
+    "line": "21445"
+  },
+  {
+    "command": ":TRIGger:PULSe:UWIDth",
+    "section": "3.27.9.4",
+    "page": "309",
+    "arguments": "<width>",
+    "line": "21581"
+  },
+  {
+    "command": ":TRIGger:PULSe:UWIDth?",
+    "line": "21583"
+  },
+  {
+    "command": ":TRIGger:PULSe:WHEN",
+    "section": "3.27.9.3",
+    "page": "309",
+    "arguments": "<when>",
+    "line": "21537"
+  },
+  {
+    "command": ":TRIGger:PULSe:WHEN?",
+    "line": "21539"
+  },
+  {
+    "command": ":TRIGger:RS232",
+    "section": "3.27.20",
+    "page": "359"
+  },
+  {
+    "command": ":TRIGger:RS232:BAUD",
+    "section": "3.27.20.6",
+    "page": "363",
+    "arguments": "<baud>",
+    "line": "25211"
+  },
+  {
+    "command": ":TRIGger:RS232:BAUD?",
+    "line": "25213"
+  },
+  {
+    "command": ":TRIGger:RS232:DATA",
+    "section": "3.27.20.5",
+    "page": "362",
+    "arguments": "<data>",
+    "line": "25165"
+  },
+  {
+    "command": ":TRIGger:RS232:DATA?",
+    "line": "25167"
+  },
+  {
+    "command": ":TRIGger:RS232:LEVel",
+    "section": "3.27.20.2",
+    "page": "360",
+    "arguments": "<level>",
+    "line": "25036"
+  },
+  {
+    "command": ":TRIGger:RS232:LEVel?",
+    "line": "25038"
+  },
+  {
+    "command": ":TRIGger:RS232:PARity",
+    "section": "3.27.20.9",
+    "page": "364",
+    "arguments": "<parity>",
+    "line": "25317"
+  },
+  {
+    "command": ":TRIGger:RS232:PARity?",
+    "line": "25319"
+  },
+  {
+    "command": ":TRIGger:RS232:POLarity",
+    "section": "3.27.20.3",
+    "page": "361",
+    "arguments": "<polarity>",
+    "line": "25084"
+  },
+  {
+    "command": ":TRIGger:RS232:POLarity?",
+    "line": "25086"
+  },
+  {
+    "command": ":TRIGger:RS232:SOURce",
+    "section": "3.27.20.1",
+    "page": "359",
+    "arguments": "<source>",
+    "line": "24986"
+  },
+  {
+    "command": ":TRIGger:RS232:SOURce?",
+    "line": "24988"
+  },
+  {
+    "command": ":TRIGger:RS232:STOP",
+    "section": "3.27.20.8",
+    "page": "364",
+    "arguments": "<bit>",
+    "line": "25285"
+  },
+  {
+    "command": ":TRIGger:RS232:STOP?",
+    "line": "25287"
+  },
+  {
+    "command": ":TRIGger:RS232:WHEN",
+    "section": "3.27.20.4",
+    "page": "361",
+    "arguments": "<when>",
+    "line": "25117"
+  },
+  {
+    "command": ":TRIGger:RS232:WHEN?",
+    "line": "25119"
+  },
+  {
+    "command": ":TRIGger:RS232:WIDTh",
+    "section": "3.27.20.7",
+    "page": "363",
+    "arguments": "<width>",
+    "line": "25244"
+  },
+  {
+    "command": ":TRIGger:RS232:WIDTh?",
+    "line": "25246"
+  },
+  {
+    "command": ":TRIGger:RUNT",
+    "section": "3.27.15",
+    "page": "333"
+  },
+  {
+    "command": ":TRIGger:RUNT:ALEVel",
+    "section": "3.27.15.6",
+    "page": "337",
+    "arguments": "<level>",
+    "line": "23489"
+  },
+  {
+    "command": ":TRIGger:RUNT:ALEVel?",
+    "line": "23491"
+  },
+  {
+    "command": ":TRIGger:RUNT:BLEVel",
+    "section": "3.27.15.7",
+    "page": "338",
+    "arguments": "<level>",
+    "line": "23538"
+  },
+  {
+    "command": ":TRIGger:RUNT:BLEVel?",
+    "line": "23540"
+  },
+  {
+    "command": ":TRIGger:RUNT:POLarity",
+    "section": "3.27.15.2",
+    "page": "334",
+    "arguments": "<polarity>",
+    "line": "23290"
+  },
+  {
+    "command": ":TRIGger:RUNT:POLarity?",
+    "line": "23292"
+  },
+  {
+    "command": ":TRIGger:RUNT:SOURce",
+    "section": "3.27.15.1",
+    "page": "334",
+    "arguments": "<source>",
+    "line": "23255"
+  },
+  {
+    "command": ":TRIGger:RUNT:SOURce?",
+    "line": "23257"
+  },
+  {
+    "command": ":TRIGger:RUNT:WHEN",
+    "section": "3.27.15.3",
+    "page": "335",
+    "arguments": "<when>",
+    "line": "23339"
+  },
+  {
+    "command": ":TRIGger:RUNT:WHEN?",
+    "line": "23341"
+  },
+  {
+    "command": ":TRIGger:RUNT:WLOWer",
+    "section": "3.27.15.5",
+    "page": "337",
+    "arguments": "<width>",
+    "line": "23449"
+  },
+  {
+    "command": ":TRIGger:RUNT:WLOWer?",
+    "line": "23451"
+  },
+  {
+    "command": ":TRIGger:RUNT:WUPPer",
+    "section": "3.27.15.4",
+    "page": "336",
+    "arguments": "<width>",
+    "line": "23397"
+  },
+  {
+    "command": ":TRIGger:RUNT:WUPPer?",
+    "line": "23399"
+  },
+  {
+    "command": ":TRIGger:SHOLd",
+    "section": "3.27.18",
+    "page": "349"
+  },
+  {
+    "command": ":TRIGger:SHOLd:CLEVel",
+    "section": "3.27.18.9",
+    "page": "355"
+  },
+  {
+    "command": ":TRIGger:SHOLd:CLEVel<level>",
+    "line": "24674"
+  },
+  {
+    "command": ":TRIGger:SHOLd:CLEVel?",
+    "line": "24676"
+  },
+  {
+    "command": ":TRIGger:SHOLd:CSRC",
+    "section": "3.27.18.2",
+    "page": "350",
+    "arguments": "<source>",
+    "line": "24359"
+  },
+  {
+    "command": ":TRIGger:SHOLd:CSRC?",
+    "line": "24361"
+  },
+  {
+    "command": ":TRIGger:SHOLd:DLEVel",
+    "section": "3.27.18.8",
+    "page": "354",
+    "arguments": "<level>",
+    "line": "24623"
+  },
+  {
+    "command": ":TRIGger:SHOLd:DLEVel?",
+    "line": "24625"
+  },
+  {
+    "command": ":TRIGger:SHOLd:DSRC",
+    "section": "3.27.18.1",
+    "page": "349",
+    "arguments": "<source>",
+    "line": "24309"
+  },
+  {
+    "command": ":TRIGger:SHOLd:DSRC?",
+    "line": "24311"
+  },
+  {
+    "command": ":TRIGger:SHOLd:HTIMe",
+    "section": "3.27.18.7",
+    "page": "353",
+    "arguments": "<time>",
+    "line": "24576"
+  },
+  {
+    "command": ":TRIGger:SHOLd:HTIMe?",
+    "line": "24578"
+  },
+  {
+    "command": ":TRIGger:SHOLd:PATTern",
+    "section": "3.27.18.4",
+    "page": "351",
+    "arguments": "<pattern>",
+    "line": "24442"
+  },
+  {
+    "command": ":TRIGger:SHOLd:PATTern?",
+    "line": "24444"
+  },
+  {
+    "command": ":TRIGger:SHOLd:SLOPe",
+    "section": "3.27.18.3",
+    "page": "351",
+    "arguments": "<slope>",
+    "line": "24409"
+  },
+  {
+    "command": ":TRIGger:SHOLd:SLOPe?",
+    "line": "24411"
+  },
+  {
+    "command": ":TRIGger:SHOLd:STIMe",
+    "section": "3.27.18.6",
+    "page": "353",
+    "arguments": "<time>",
+    "line": "24540"
+  },
+  {
+    "command": ":TRIGger:SHOLd:STIMe?",
+    "line": "24542"
+  },
+  {
+    "command": ":TRIGger:SHOLd:TYPE",
+    "section": "3.27.18.5",
+    "page": "352",
+    "arguments": "<type>",
+    "line": "24487"
+  },
+  {
+    "command": ":TRIGger:SHOLd:TYPE?",
+    "line": "24489"
+  },
+  {
+    "command": ":TRIGger:SLOPe",
+    "section": "3.27.10",
+    "page": "311"
+  },
+  {
+    "command": ":TRIGger:SLOPe:ALEVel",
+    "section": "3.27.10.7",
+    "page": "316",
+    "arguments": "<level>",
+    "line": "22028"
+  },
+  {
+    "command": ":TRIGger:SLOPe:ALEVel?",
+    "line": "22030"
+  },
+  {
+    "command": ":TRIGger:SLOPe:BLEVel",
+    "section": "3.27.10.8",
+    "page": "316",
+    "arguments": "<level>",
+    "line": "22065"
+  },
+  {
+    "command": ":TRIGger:SLOPe:BLEVel?",
+    "line": "22067"
+  },
+  {
+    "command": ":TRIGger:SLOPe:POLarity",
+    "section": "3.27.10.2",
+    "page": "312",
+    "arguments": "<polarity>",
+    "line": "21787"
+  },
+  {
+    "command": ":TRIGger:SLOPe:POLarity?",
+    "line": "21789"
+  },
+  {
+    "command": ":TRIGger:SLOPe:SOURce",
+    "section": "3.27.10.1",
+    "page": "312",
+    "arguments": "<channel>",
+    "line": "21752"
+  },
+  {
+    "command": ":TRIGger:SLOPe:SOURce?",
+    "line": "21754"
+  },
+  {
+    "command": ":TRIGger:SLOPe:TLOWer",
+    "section": "3.27.10.5",
+    "page": "314",
+    "arguments": "<time>",
+    "line": "21927"
+  },
+  {
+    "command": ":TRIGger:SLOPe:TLOWer?",
+    "line": "21929"
+  },
+  {
+    "command": ":TRIGger:SLOPe:TUPPer",
+    "section": "3.27.10.4",
+    "page": "314",
+    "arguments": "<time>",
+    "line": "21887"
+  },
+  {
+    "command": ":TRIGger:SLOPe:TUPPer?",
+    "line": "21889"
+  },
+  {
+    "command": ":TRIGger:SLOPe:WHEN",
+    "section": "3.27.10.3",
+    "page": "313",
+    "arguments": "<when>",
+    "line": "21833"
+  },
+  {
+    "command": ":TRIGger:SLOPe:WHEN?",
+    "line": "21835"
+  },
+  {
+    "command": ":TRIGger:SLOPe:WINDow",
+    "section": "3.27.10.6",
+    "page": "315",
+    "arguments": "<window>",
+    "line": "21979"
+  },
+  {
+    "command": ":TRIGger:SLOPe:WINDow?",
+    "line": "21981"
+  },
+  {
+    "command": ":TRIGger:SPI",
+    "section": "3.27.22",
+    "page": "373"
+  },
+  {
+    "command": ":TRIGger:SPI:CLEVel",
+    "section": "3.27.22.3",
+    "page": "375",
+    "arguments": "<level>",
+    "line": "26050"
+  },
+  {
+    "command": ":TRIGger:SPI:CLEVel?",
+    "line": "26052"
+  },
+  {
+    "command": ":TRIGger:SPI:CLK",
+    "section": "3.27.22.1",
+    "page": "374",
+    "arguments": "<source>",
+    "line": "25956"
+  },
+  {
+    "command": ":TRIGger:SPI:CLK?",
+    "line": "25958"
+  },
+  {
+    "command": ":TRIGger:SPI:CODE",
+    "section": "3.27.22.16",
+    "page": "384",
+    "arguments": "<code>",
+    "line": "26644"
+  },
+  {
+    "command": ":TRIGger:SPI:CODE?",
+    "line": "26646"
+  },
+  {
+    "command": ":TRIGger:SPI:CS",
+    "section": "3.27.22.9",
+    "page": "379",
+    "arguments": "<source>",
+    "line": "26328"
+  },
+  {
+    "command": ":TRIGger:SPI:CS?",
+    "line": "26330"
+  },
+  {
+    "command": ":TRIGger:SPI:CURRbit",
+    "section": "3.27.22.15",
+    "page": "383",
+    "arguments": "<currbit>",
+    "line": "26597"
+  },
+  {
+    "command": ":TRIGger:SPI:CURRbit?",
+    "line": "26599"
+  },
+  {
+    "command": ":TRIGger:SPI:DATA",
+    "section": "3.27.22.14",
+    "page": "382",
+    "arguments": "<data>",
+    "line": "26553"
+  },
+  {
+    "command": ":TRIGger:SPI:DATA?",
+    "line": "26555"
+  },
+  {
+    "command": ":TRIGger:SPI:DLEVel",
+    "section": "3.27.22.7",
+    "page": "378",
+    "arguments": "<level>",
+    "line": "26235"
+  },
+  {
+    "command": ":TRIGger:SPI:DLEVel?",
+    "line": "26237"
+  },
+  {
+    "command": ":TRIGger:SPI:MISO",
+    "section": "3.27.22.5",
+    "page": "376",
+    "arguments": "<source>",
+    "line": "26134"
+  },
+  {
+    "command": ":TRIGger:SPI:MISO?",
+    "line": "26136"
+  },
+  {
+    "command": ":TRIGger:SPI:MODE",
+    "section": "3.27.22.11",
+    "page": "381",
+    "arguments": "<mode>",
+    "line": "26440"
+  },
+  {
+    "command": ":TRIGger:SPI:MODE?",
+    "line": "26442"
+  },
+  {
+    "command": ":TRIGger:SPI:SCL",
+    "section": "3.27.22.2",
+    "page": "374",
+    "arguments": "<source>",
+    "line": "25994"
+  },
+  {
+    "command": ":TRIGger:SPI:SCL?",
+    "line": "25996"
+  },
+  {
+    "command": ":TRIGger:SPI:SDA",
+    "section": "3.27.22.6",
+    "page": "377",
+    "arguments": "<source>",
+    "line": "26186"
+  },
+  {
+    "command": ":TRIGger:SPI:SDA?",
+    "line": "26188"
+  },
+  {
+    "command": ":TRIGger:SPI:SLEVel",
+    "section": "3.27.22.10",
+    "page": "380",
+    "arguments": "<level>",
+    "line": "26383"
+  },
+  {
+    "command": ":TRIGger:SPI:SLEVel?",
+    "line": "26385"
+  },
+  {
+    "command": ":TRIGger:SPI:SLOPe",
+    "section": "3.27.22.4",
+    "page": "376",
+    "arguments": "<slope>",
+    "line": "26100"
+  },
+  {
+    "command": ":TRIGger:SPI:SLOPe?",
+    "line": "26102"
+  },
+  {
+    "command": ":TRIGger:SPI:TIMeout",
+    "section": "3.27.22.12",
+    "page": "381",
+    "arguments": "<time>",
+    "line": "26475"
+  },
+  {
+    "command": ":TRIGger:SPI:TIMeout?",
+    "line": "26477"
+  },
+  {
+    "command": ":TRIGger:SPI:WHEN",
+    "section": "3.27.22.8",
+    "page": "378",
+    "arguments": "<when>",
+    "line": "26273"
+  },
+  {
+    "command": ":TRIGger:SPI:WHEN?",
+    "line": "26275"
+  },
+  {
+    "command": ":TRIGger:SPI:WIDTh",
+    "section": "3.27.22.13",
+    "page": "382",
+    "arguments": "<width>",
+    "line": "26521"
+  },
+  {
+    "command": ":TRIGger:SPI:WIDTh?",
+    "line": "26523"
+  },
+  {
+    "command": ":TRIGger:STATus?",
+    "section": "3.27.3",
+    "page": "302",
+    "line": "21055"
+  },
+  {
+    "command": ":TRIGger:SWEep",
+    "section": "3.27.4",
+    "page": "302",
+    "arguments": "<sweep>",
+    "line": "21081"
+  },
+  {
+    "command": ":TRIGger:SWEep?",
+    "line": "21083"
+  },
+  {
+    "command": ":TRIGger:TIMeout",
+    "section": "3.27.14",
+    "page": "330"
+  },
+  {
+    "command": ":TRIGger:TIMeout:LEVel",
+    "section": "3.27.14.4",
+    "page": "333",
+    "arguments": "<level>",
+    "line": "23183"
+  },
+  {
+    "command": ":TRIGger:TIMeout:LEVel?",
+    "line": "23185"
+  },
+  {
+    "command": ":TRIGger:TIMeout:SLOPe",
+    "section": "3.27.14.2",
+    "page": "331",
+    "arguments": "<slope>",
+    "line": "23083"
+  },
+  {
+    "command": ":TRIGger:TIMeout:SLOPe?",
+    "line": "23085"
+  },
+  {
+    "command": ":TRIGger:TIMeout:SOURce",
+    "section": "3.27.14.1",
+    "page": "331",
+    "arguments": "<source>",
+    "line": "23045"
+  },
+  {
+    "command": ":TRIGger:TIMeout:SOURce?",
+    "line": "23047"
+  },
+  {
+    "command": ":TRIGger:TIMeout:TIME",
+    "section": "3.27.14.3",
+    "page": "332",
+    "arguments": "<time>",
+    "line": "1074"
+  },
+  {
+    "command": ":TRIGger:TIMeout:TIME?",
+    "line": "1076"
+  },
+  {
+    "command": ":TRIGger:VIDeo",
+    "section": "3.27.11",
+    "page": "317"
+  },
+  {
+    "command": ":TRIGger:VIDeo:LEVel",
+    "section": "3.27.11.6",
+    "page": "321",
+    "arguments": "<level>",
+    "line": "22403"
+  },
+  {
+    "command": ":TRIGger:VIDeo:LEVel?",
+    "line": "22405"
+  },
+  {
+    "command": ":TRIGger:VIDeo:LINE",
+    "section": "3.27.11.4",
+    "page": "319",
+    "arguments": "<line>",
+    "line": "22263"
+  },
+  {
+    "command": ":TRIGger:VIDeo:LINE?",
+    "line": "22265"
+  },
+  {
+    "command": ":TRIGger:VIDeo:MODE",
+    "section": "3.27.11.3",
+    "page": "318",
+    "arguments": "<mode>",
+    "line": "22200"
+  },
+  {
+    "command": ":TRIGger:VIDeo:MODE?",
+    "line": "22202"
+  },
+  {
+    "command": ":TRIGger:VIDeo:POLarity",
+    "section": "3.27.11.2",
+    "page": "318",
+    "arguments": "<polarity>",
+    "line": "22167"
+  },
+  {
+    "command": ":TRIGger:VIDeo:POLarity?",
+    "line": "22169"
+  },
+  {
+    "command": ":TRIGger:VIDeo:SOURce",
+    "section": "3.27.11.1",
+    "page": "317",
+    "arguments": "<source>",
+    "line": "22121"
+  },
+  {
+    "command": ":TRIGger:VIDeo:SOURce?",
+    "line": "22123"
+  },
+  {
+    "command": ":TRIGger:VIDeo:STANdard",
+    "section": "3.27.11.5",
+    "page": "320",
+    "arguments": "<standard>",
+    "line": "22336"
+  },
+  {
+    "command": ":TRIGger:VIDeo:STANdard?",
+    "line": "22338"
+  },
+  {
+    "command": ":TRIGger:WINDows",
+    "section": "3.27.16",
+    "page": "339"
+  },
+  {
+    "command": ":TRIGger:WINDows:ALEVel",
+    "section": "3.27.16.5",
+    "page": "341",
+    "arguments": "<level>",
+    "line": "23760"
+  },
+  {
+    "command": ":TRIGger:WINDows:ALEVel?",
+    "line": "23762"
+  },
+  {
+    "command": ":TRIGger:WINDows:BLEVel",
+    "section": "3.27.16.6",
+    "page": "342",
+    "arguments": "<level>",
+    "line": "23806"
+  },
+  {
+    "command": ":TRIGger:WINDows:BLEVel?",
+    "line": "23808"
+  },
+  {
+    "command": ":TRIGger:WINDows:POSition",
+    "section": "3.27.16.3",
+    "page": "340",
+    "arguments": "<pos>",
+    "line": "23677"
+  },
+  {
+    "command": ":TRIGger:WINDows:POSition?",
+    "line": "23679"
+  },
+  {
+    "command": ":TRIGger:WINDows:SLOPe",
+    "section": "3.27.16.2",
+    "page": "339",
+    "arguments": "<type>",
+    "line": "23625"
+  },
+  {
+    "command": ":TRIGger:WINDows:SLOPe?",
+    "line": "23627"
+  },
+  {
+    "command": ":TRIGger:WINDows:SOURce",
+    "section": "3.27.16.1",
+    "page": "339",
+    "arguments": "<source>",
+    "line": "23590"
+  },
+  {
+    "command": ":TRIGger:WINDows:SOURce?",
+    "line": "23592"
+  },
+  {
+    "command": ":TRIGger:WINDows:TIME",
+    "section": "3.27.16.4",
+    "page": "341",
+    "arguments": "<time>",
+    "line": "23727"
+  },
+  {
+    "command": ":TRIGger:WINDows:TIME?",
+    "line": "23729"
+  },
+  {
+    "command": ":WAVeform:DATA?",
+    "section": "3.28.5",
+    "page": "407",
+    "line": "28160"
+  },
+  {
+    "command": ":WAVeform:FORMat",
+    "section": "3.28.3",
+    "page": "406",
+    "arguments": "<format>",
+    "line": "28073"
+  },
+  {
+    "command": ":WAVeform:FORMat?",
+    "line": "28075"
+  },
+  {
+    "command": ":WAVeform:MODE",
+    "section": "3.28.2",
+    "page": "405",
+    "line": "27957",
+    "arguments": "<mode>"
+  },
+  {
+    "command": ":WAVeform:MODE?",
+    "line": "28021"
+  },
+  {
+    "command": ":WAVeform:POINts",
+    "section": "3.28.4",
+    "page": "406",
+    "arguments": "<point>",
+    "line": "28109"
+  },
+  {
+    "command": ":WAVeform:POINts?",
+    "line": "28111"
+  },
+  {
+    "command": ":WAVeform:PREamble?",
+    "section": "3.28.14",
+    "page": "413",
+    "line": "28561"
+  },
+  {
+    "command": ":WAVeform:SOURce",
+    "section": "3.28.1",
+    "page": "404",
+    "arguments": "<source>",
+    "line": "27967"
+  },
+  {
+    "command": ":WAVeform:SOURce?",
+    "line": "27969"
+  },
+  {
+    "command": ":WAVeform:STARt",
+    "section": "3.28.12",
+    "page": "411",
+    "arguments": "<sta>",
+    "line": "28452"
+  },
+  {
+    "command": ":WAVeform:STARt?",
+    "line": "28454"
+  },
+  {
+    "command": ":WAVeform:STOP",
+    "section": "3.28.13",
+    "page": "412",
+    "arguments": "<stop>",
+    "line": "28504"
+  },
+  {
+    "command": ":WAVeform:STOP?",
+    "line": "28506"
+  },
+  {
+    "command": ":WAVeform:XINCrement?",
+    "section": "3.28.6",
+    "page": "408",
+    "line": "28214"
+  },
+  {
+    "command": ":WAVeform:XORigin?",
+    "section": "3.28.7",
+    "page": "408",
+    "line": "28248"
+  },
+  {
+    "command": ":WAVeform:XREFerence?",
+    "section": "3.28.8",
+    "page": "409",
+    "line": "28299"
+  },
+  {
+    "command": ":WAVeform:YINCrement?",
+    "section": "3.28.9",
+    "page": "410",
+    "line": "27959"
+  },
+  {
+    "command": ":WAVeform:YORigin?",
+    "section": "3.28.10",
+    "page": "410",
+    "line": "27961"
+  },
+  {
+    "command": ":WAVeform:YREFerence?",
+    "section": "3.28.11",
+    "page": "411",
+    "line": "28423"
+  }
+]
